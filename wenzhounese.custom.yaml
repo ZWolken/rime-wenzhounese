@@ -30,6 +30,7 @@ patch:
     - derive/^wa$/va/     #外、飯
     - derive/^xa$/xia/    #削
     #!- derive/^ae$/      #杏
+    - derive/^iai$/yai/   #一
     
 
 
