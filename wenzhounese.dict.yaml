@@ -11,7 +11,7 @@ min_phrase_weight: 100
 name: wenzhounese	
 sort: by_weight
 use_preset_vocabulary: true
-version: "2.0.0"	
+version: "1.0.0"	
 ...
 
 
@@ -671,7 +671,19 @@ version: "2.0.0"
 讒  zza
 巉  zza
 湛  zza
-
-
+櫻  ae
+鸚  ae
+哀  ae
+杏  ae
+晏  ae
+亨  hae
+哼  hae
+蒿  hae
+㧸  hae
+行  hhae
+珩  hhae
+幸  hhae
+倖  hhae
+悻  hhae
 
 
