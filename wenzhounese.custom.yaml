@@ -23,15 +23,17 @@ patch:
 
 
     - derive/^ia$/yia/    #約
-    #!- derive/^nga$/     #眼
+    #- derive/^nga$/      #眼
     - derive/^nya$/nia/   #鳥
     - derive/^qa$/qia/    #卻、雀
     - derive/^ua$/va/     #挖、弯
     - derive/^wa$/va/     #外、飯
     - derive/^xa$/xia/    #削
-    #!- derive/^ae$/      #杏
+    #- derive/^ae$/       #杏
     - derive/^iai$/yai/   #一
-    
+    - derive/^iai$/yiai/  #一
+    - derive/^jai$/jiai/  #急
+    - derive/^jjai$/jiai/ #劇
 
 
 
