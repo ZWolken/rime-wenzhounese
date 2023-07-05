@@ -13,7 +13,7 @@
 
 參考資料：
 1.  [漢典](https://www.zdic.net/)
-2.  [小學堂](https://xiaoxue.iis.sinica.edu.tw/)
+2.  [小學堂](https://xiaoxue.iis.sinica.edu.tw/ccdb)
 3.  [異体字リスト](https://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/)
 
 ## 安裝
