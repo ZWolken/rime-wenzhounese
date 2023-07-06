@@ -15,6 +15,8 @@
 1.  [漢典](https://www.zdic.net/)
 2.  [小學堂](https://xiaoxue.iis.sinica.edu.tw/ccdb)
 3.  [異体字リスト](https://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/)
+4.  [巧笔输入法](https://hanzi.unihan.com.cn/Qpen)
+5.  [两分查字-字海网，叶典网](http://zisea.com/zslf.htm)
 
 ## 安裝
 
