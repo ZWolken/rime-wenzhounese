@@ -10,86 +10,38 @@
 # version: 1.0.0
 
 patch:
-  "speller/algebra":
-    - abbrev/^([bcdfghjklprstvwxyz]).+$/$1/   # 對齊標準行
-    #濁聲母：
-    - derive/^bb/b/
-    - derive/^dd/d/
-    - derive/^gg/g/
-    - derive/^hh//          #!check needed
-    - derive/^jj/j/
-    - derive/^ss/s/
-    - derive/^zz/z/
+	"speller/algebra":
+		- abbrev/^([bcdfghjklprstvwxyz]).+$/$1/	 # 對齊標準行
+		#濁聲母：
+		- derive/^bb/b/
+		- derive/^dd/d/
+		- derive/^gg/g/
+		- derive/^hh//					#!check needed
+		- derive/^jj/j/
+		- derive/^ss/s/
+		- derive/^zz/z/
 
-
-    - derive/^ia$/yia/      #約
-    #- derive/^nga$/        #眼
-    - derive/^nya$/nia/     #鳥
-    - derive/^qa$/qia/      #卻、雀
-    - derive/^ua$/va/       #挖、弯
-    - derive/^wa$/va/       #外、飯
-    - derive/^xa$/xia/      #削
-    #- derive/^ae$/         #杏
-    - derive/^iai$/yai/     #一
-    - derive/^iai$/yiai/    #一
-    - derive/^jai$/jiai/    #急
-    - derive/^jjai$/jiai/   #劇
-    - derive/^jjai$/jai/    #劇
-    #- derive/^ngai$/       #魏
-    - derive/^nyai$/niai/   #逆
-    - derive/^uai$/vai/     #猥
-    - derive/^wai$/vai/     #回
-
-
-
-
-
-
-    #完全匹配：
-#   - derive/^i$/yi/        #央
-#   - derive/^o$/wu/        #娃
-#   - derive/^iu$/yu/       #溫、碗等
-#   - derive/^([cj])iou$/jiu/
-#   - derive/^(sh|ch|gn)iou$/$1iu/
-#   - derive/^ne$/nei/      #日、耐等
-#   - derive/^ko$/gu/       #家等
-    #聲母：
-#   - derive/^p/b/      #[p]-b
-#   - derive/^tsh/c/    #[ts']-c
-#   - derive/^t/d/      #[t]-d
-#   - derive/^v/f/      #[v]-ff
-#   - derive/^k[^h]/g/  #[k]-g
-#   - derive/^gh/h/     #[ɦ]-hh
-#   - derive/^c[^h]/j/  #[tɕ]-j
-#   - derive/^kh/k/     #[k']-k
-#   - derive/^ng/n/     #[ʔŋ]-ng & [ŋ]-nng 眼、咬、硬等 建議注釋不使用
-#   - derive/^gn/n/     #[ʔȵ]-ny & [ȵ]-nny 粘、鳥等
-#   - derive/^ph/p/     #[p']-p
-#   - derive/^th/t/     #[t']-t
-#   - derive/^tsi/chi/
-#   - derive/^si/xi/
-#   - derive/^dz/z/
-#   - derive/^ts/z/
-#   - derive/^dz/z/
-#   - derive/^ts/z/
-#   - derive/^ch/q/
-#   - derive/^sh/x/     #[ɕ]-x 先、香等
-#   - derive/^yu/y/
-#   - derive/^i/y/
-#   - derive/^th/t/
-#   - derive/^gh/w/
-
-    #韻母：
-#   - derive/ae$/e/
-#   - derive/ae$/ie/    #jie
-#   - derive/n$/ng/
-#   - derive/au$/ao/
-#   - derive/oe$/ou/          #端、算等的韻母情況
-#   - derive/eu$/ou/          #土、圖、呂、夫等的韻母情況
-#   - derive/y$/i/
-#   - derive/eo$/e/
-#   - derive/iu$/v/
-#   - derive/iu$/u/         #ü特殊情況
-#   - derive/ao$/o/
-#   - derive/uao$/o/          ##妝ciuao
-    
+		#單獨匹配：
+		- derive/^ia$/yia/			#約
+		#- derive/^nga$/#眼
+		- derive/^nya$/nia/			#鳥
+		- derive/^qa$/qia/			#卻、雀
+		- derive/^ua$/va/				#挖、弯
+		- derive/^wa$/va/				#外、飯
+		- derive/^xa$/xia/			#削
+		#- derive/^ae$/#杏
+		- derive/^iai$/yai/			#一
+		- derive/^iai$/yiai/		#一
+		- derive/^jai$/jiai/		#急
+		- derive/^jjai$/jiai/		#劇
+		- derive/^jjai$/jai/		#劇
+		#- derive/^ngai$/#魏
+		- derive/^nyai$/niai/		#逆
+		- derive/^uai$/vai/			#猥
+		- derive/^wai$/vai/			#回
+		- derive/^iang$/yang/		#因
+		- derive/^jang$/jiang/	#斤
+		- derive/^jjang$/jiang/	#近
+		- derive/^nyang$/niang/	#認、迎
+		#- derive/^nyang$/yang/#迎
+		- derive/^qang$/qiang/	#輕
