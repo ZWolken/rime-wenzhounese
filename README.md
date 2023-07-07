@@ -22,7 +22,7 @@
 
 1. 根據系統安裝對應的[Rime](https://rime.im)版本
 
-2. 將`iuciou.schema.yaml`、`iuciou.dict.yaml`以及`iuciou.custom.yaml`（選擇性）三個文件放入用戶資料夾内
+2. 將`wenzhounese.schema.yaml`、`wenzhounese.dict.yaml`以及`wenzhounese.custom.yaml`（選擇性）三個文件放入用戶資料夾内
 > 相關路徑：
 >
 > 【中州韻】 `~/.config/ibus/rime/` （0.9.1 以下版本爲 `~/.ibus/rime/`；fcitx5 为 `~/.local/share/fcitx5/rime/`）
