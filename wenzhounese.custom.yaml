@@ -35,6 +35,7 @@ patch:
 
 		#韻母：
 		- derive/au$/ao/				#甌
+		- derive/ee$/ei/
 
 		#單獨匹配：
 		#- derive/^ia$/yia/#約
@@ -64,3 +65,4 @@ patch:
 		#- derive/^wang$/vang/#份
 		#- derive/^xang$/xiang/#馨
 		- derive/^iau$/yao/			#優
+		#ngee呆
