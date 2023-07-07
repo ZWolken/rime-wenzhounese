@@ -21,30 +21,45 @@ patch:
 		- derive/^ss/s/
 		- derive/^zz/z/
 
+		#聲母
+		- derive/^i/y/
+		- derive/^i/yi/
+		- derive/^j/ji/
+		- derive/^jj/ji/
+		- derive/^ny/ni/
+		- derive/^u/v/
+		- derive/^w/v/
+		- derive/^q/qi/
+		- derive/^x/xi/
+
+		#韻母：
+		- derive/au$/ao/				#甌
+
 		#單獨匹配：
-		- derive/^ia$/yia/			#約
-		#- derive/^nga$/#眼
-		- derive/^nya$/nia/			#鳥
-		- derive/^qa$/qia/			#卻、雀
-		- derive/^ua$/va/				#挖、弯
-		- derive/^wa$/va/				#外、飯
-		- derive/^xa$/xia/			#削
+		#- derive/^ia$/yia/#約
+		#!!!- derive/^nga$/#眼
+		#- derive/^nya$/nia/#鳥
+		#- derive/^qa$/qia/#卻、雀
+		#- derive/^ua$/va/#挖、弯
+		#- derive/^wa$/va/#外、飯
+		#- derive/^xa$/xia/#削
 		#- derive/^ae$/#杏
-		- derive/^iai$/yai/			#一
-		- derive/^iai$/yiai/		#一
-		- derive/^jai$/jiai/		#急
-		- derive/^jjai$/jiai/		#劇
-		- derive/^jjai$/jai/		#劇
+		#- derive/^iai$/yai/#一
+		#- derive/^iai$/yiai/#一
+		#- derive/^jai$/jiai/#急
+		#- derive/^jjai$/jiai/#劇
+		#- derive/^jjai$/jai/#劇
 		#- derive/^ngai$/#魏
-		- derive/^nyai$/niai/		#逆
-		- derive/^uai$/vai/			#猥
-		- derive/^wai$/vai/			#回
-		- derive/^iang$/yang/		#因
-		- derive/^jang$/jiang/	#斤
-		- derive/^jjang$/jiang/	#近
-		- derive/^nyang$/niang/	#認、迎
-		#- derive/^nyang$/yang/#迎
-		- derive/^qang$/qiang/	#輕
-		- derive/^uang$/vang/		#溫
-		- derive/^wang$/vang/		#份
-		- derive/^xang$/xiang/	#馨
+		#- derive/^nyai$/niai/#逆
+		#- derive/^uai$/vai/#猥
+		#- derive/^wai$/vai/#回
+		#- derive/^iang$/yang/#因
+		#- derive/^jang$/jiang/#斤
+		#- derive/^jjang$/jiang/#近
+		#- derive/^nyang$/niang/#認、迎
+		#!!!- derive/^nyang$/yang/#迎
+		#- derive/^qang$/qiang/#輕
+		#- derive/^uang$/vang/#溫
+		#- derive/^wang$/vang/#份
+		#- derive/^xang$/xiang/#馨
+		- derive/^iau$/yao/			#優
