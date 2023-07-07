@@ -18,7 +18,7 @@ patch:
 		- derive/^gg/g/
 		- derive/^hh//					#!check needed
 		- derive/^jj/j/
-		- derive/^ss/s/
+		- derive/^ss/z/
 		- derive/^zz/z/
 
 		#聲母
@@ -29,6 +29,7 @@ patch:
 		- derive/^ny/ni/
 		- derive/^u/v/
 		- derive/^w/v/
+		#- derive/^w/f/
 		- derive/^q/qi/
 		- derive/^x/xi/
 
