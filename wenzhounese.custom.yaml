@@ -45,3 +45,6 @@ patch:
 		- derive/^nyang$/niang/	#認、迎
 		#- derive/^nyang$/yang/#迎
 		- derive/^qang$/qiang/	#輕
+		- derive/^uang$/vang/		#溫
+		- derive/^wang$/vang/		#份
+		- derive/^xang$/xiang/	#馨
