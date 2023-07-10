@@ -9,6 +9,7 @@
 # encoding: utf-8
 # Wolken <zwolken@foxmail.com | zharry@web.de>
 # version: 1.0.0
+# iv jeu hhu
 
 patch:
 	"speller/algebra":
@@ -36,7 +37,7 @@ patch:
 
 		#韻母：
 		- derive/au$/ao/				#甌
-		- derive/ee$/ei/
+		- derive/ee$/ei/				#开
 		- derive/eu$/ou/				#多
 
 		#單獨匹配：

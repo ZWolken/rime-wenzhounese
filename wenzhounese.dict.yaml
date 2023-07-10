@@ -490,6 +490,7 @@ version: "1.0.0"
 撒	sa
 霎	sa
 𥈊	sa
+#⿰扌⿳夭艹韭sa
 山	sa
 衫	sa
 杉	sa
@@ -1010,6 +1011,7 @@ version: "1.0.0"
 𩑦	uai
 偎	uai
 煨	uai
+#⿰缶畏uai
 隈	uai
 𩗯	uai
 猥	uai
@@ -1173,7 +1175,9 @@ version: "1.0.0"
 #P228
 棍	gang
 謴	gang
+#⿰火⿳亠公𧘇gang
 浛	ggang
+#⿰氣頁ggang
 夯	hang
 很	hang
 狠	hang
@@ -1894,6 +1898,7 @@ version: "1.0.0"
 媢	me
 蛑	me
 髦	me
+#⿱无好
 #P234
 畝	me
 牡	me
@@ -2818,16 +2823,264 @@ version: "1.0.0"
 礎	ceu
 銼	ceu
 錯	ceu
-獨
-讀
-瀆
-牘
-櫝
-犢
-黷
-毒
-氣
-
+獨	ddeu
+讀	ddeu
+瀆	ddeu
+牘	ddeu
+櫝	ddeu
+犢	ddeu
+黷	ddeu
+毒	ddeu
+纛	ddeu
+媠	ddeu
+豆	ddeu
+痘	ddeu
+荳	ddeu
+大	ddeu	100%
+馱	ddeu
+骰	ddeu
+墮	ddeu
+惰	ddeu
+舵	ddeu
+䅜	ddeu
+督	deu
+篤	deu
+多	deu	100%
+哆	deu
+丟	deu
+銩	deu
+躲	deu
+剁	deu
+育	ieu
+淯	ieu
+毓	ieu
+昱	ieu
+煜	ieu
+囿	ieu
+鬱	ieu
+鬻	ieu
+燠	ieu
+彧	ieu
+竹	jeu
+祝	jeu
+菊	jeu
+築	jeu
+鞠	jeu
+啄	jeu
+粥	jeu
+竺	jeu
+掬	jeu
+州	jeu
+洲	jeu
+舟	jeu
+輈	jeu
+周	jeu
+啁	jeu
+赒	jeu
+啾	jeu
+盩	jeu
+鬏	jeu
+酒	jeu
+帚	jeu
+肘	jeu
+晝	jeu
+咒	jeu
+咮	jeu
+#P241
+逐	jjeu
+軸	jjeu
+妯	jjeu
+舳	jjeu
+宙	jjeu
+冑	jjeu	#胄
+售	jjeu
+酎	jjeu
+繇	jjeu
+仇	jjeu
+囚	jjeu
+儔	jjeu
+幬	jjeu
+疇	jjeu
+籌	jjeu
+躊	jjeu
+惆	jjeu
+綢	jjeu
+稠	jjeu
+逎	jjeu
+醻	jjeu
+雠	jjeu
+犨	jjeu
+紂	jjeu
+葤	jjeu
+六	leu
+甪	leu
+陸	leu
+鹿	leu
+漉	leu
+轆	leu
+簏	leu
+麓	leu
+祿	leu
+戮	leu
+溜	leu
+遛	leu
+霤	leu
+摞	leu
+餾	leu
+劉	leu
+瀏	leu
+羅	leu
+囉	leu
+蘿	leu
+邏	leu
+鑼	leu
+籮	leu
+流	leu
+琉	leu
+硫	leu
+旒	leu
+旈	leu
+鎏	leu
+留	leu
+餾	leu
+騮	leu
+榴	leu
+飀	leu
+瘤	leu
+鎦	leu
+鶹	leu
+騾	leu
+螺	leu
+鏐	leu
+熘	leu
+虜	leu
+擄	leu
+柳	leu
+倮	leu
+綹	leu
+魯	leu
+艪	leu
+氌	leu
+鑥	leu
+裸	leu
+罶	leu
+蠃	leu
+㧕	leu
+怒	neu
+呶	neu
+奴	neu
+孥	neu
+駑	neu
+弩	neu
+肉	nyeu
+曲	qeu
+畜	qeu
+麴	qeu
+搐	qeu
+秋	qeu
+抽	qeu
+鰍	qeu
+鞦	qeu
+湫	qeu
+萩	qeu
+楸	qeu
+鞧	qeu
+紬	qeu
+瘳	qeu
+丑	qeu
+醜	qeu
+臭	qeu
+速	seu
+涑	seu
+觫	seu
+餗	seu
+蔌	seu
+簌	seu
+梳	seu
+疏	seu
+蔬	seu
+嗉	seu
+搓	seu
+梭	seu
+數	seu
+素	seu
+愫	seu
+嗉	seu
+助	sseu
+徂	sseu
+殂	sseu
+鋤	sseu
+雛	sseu
+鉏	sseu
+#⿱宀⿰爿萝sseu
+禿	teu
+忒	teu
+拖	teu
+妥	teu
+#P242
+夙	xeu
+旭	xeu
+叔	xeu
+菽	xeu
+肅	xeu
+骕	xeu
+鷫	xeu
+倏	xeu
+畜	xeu
+蓄	xeu
+頊	xeu
+勖	xeu
+宿	xeu
+蓿	xeu
+收	xeu
+修	xeu
+脩	xeu
+羞	xeu
+饈	xeu
+手	xeu
+守	xeu
+首	xeu
+獸	xeu
+秀	xeu
+鏽	xeu
+繡	xeu
+狩	xeu
+辱	yeu
+溽	yeu
+縟	yeu
+薅	yeu
+褥	yeu
+孰	yeu
+塾	yeu
+熟	yeu
+族	yeu
+淑	yeu
+菽	yeu
+就	yeu
+壽	yeu
+授	yeu
+袖	yeu
+岫	yeu
+就	yeu
+僦	yeu
+鷲	yeu
+售	yeu
+泅	yeu
+柔	yeu
+揉	yeu
+蹂	yeu
+糅	yeu
+鞣	yeu
+輮	yeu
+受	yeu
+綬	yeu
+左	zeu
+組	zeu
+阻	zeu
+做	zeu
+佐	zeu
+詛	zeu
+𢭟	zzeu
 
 
 
