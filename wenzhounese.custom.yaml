@@ -37,6 +37,7 @@ patch:
 		#韻母：
 		- derive/au$/ao/				#甌
 		- derive/ee$/ei/
+		- derive/eu$/ou/				#多
 
 		#單獨匹配：
 		#- derive/^ia$/yia/#約
