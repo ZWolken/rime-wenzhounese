@@ -1,0 +1,53 @@
+#
+# Date: 2023-07
+# Rime dictionary
+# Wenzhounese - 溫州話
+# encoding: utf-8
+# Wolken (zwolken@foxmail.com | zharry@web.de)
+
+---
+max_phrase_length: 7	
+min_phrase_weight: 100	
+name: wenzhounese	
+sort: by_weight
+use_preset_vocabulary: true
+version: "1.0.0"	
+...
+
+
+#1阴平;2阳平;3阴上;4阳上;5阴去;6阳去;7阴入;8阳入
+#P239
+#a[a]
+#ba[pa]
+#1
+爸	ba	#背稱
+班	ba
+斑	ba
+頒	ba
+扳	ba	#扳手
+#3
+板	ba
+版	ba
+舨	ba
+阪	ba	#大阪
+鈑	ba	#鈑金工
+擺	ba	#擺動
+#5
+爸	ba	#面稱
+拜	ba
+湃	ba
+扮	ba
+瓣	ba	#豆瓣醬
+欛	ba	#籃兒欛
+#7
+百	ba
+柏	ba
+伯	ba
+迫	ba	#迫擊炮
+檗	ba	#黃檗
+#pa[p‘a]’
+#1
+攀	pa
+#5
+派	pa
+盼	pa
