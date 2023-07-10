@@ -16,6 +16,8 @@ version: "1.0.0"
 ...
 
 
+#P219
+#a
 厄	a
 呃	a
 扼	a
@@ -68,6 +70,7 @@ version: "1.0.0"
 白	bba
 帛	bba
 鉑	bba
+#P220
 辦	bba
 敗	bba
 憊	bba
@@ -255,6 +258,7 @@ version: "1.0.0"
 扎	gga
 峽	gga
 挾	gga
+#P221
 茄	gga
 摜	gga
 環	gga
@@ -385,6 +389,7 @@ version: "1.0.0"
 埋	ma
 陌	ma
 貉	ma
+#P222
 慢	ma
 賣	ma
 漫	ma
@@ -509,6 +514,7 @@ version: "1.0.0"
 喋	ssa
 摲	ssa
 㾹	ssa
+#P223
 儕	ssa
 殘	ssa
 柴	ssa
@@ -672,9 +678,11 @@ version: "1.0.0"
 讒	zza
 巉	zza
 湛	zza
+#ae
 櫻	ae
 鸚	ae
 哀	ae
+#P224
 杏	ae
 晏	ae
 亨	hae
@@ -686,6 +694,7 @@ version: "1.0.0"
 幸	hhae
 倖	hhae
 悻	hhae
+#ai
 北	bai
 不	bai
 撥	bai
@@ -768,6 +777,7 @@ version: "1.0.0"
 祓	fai
 韨	fai
 黻	fai
+#P225
 灰	fai
 揮	fai
 徽	fai
@@ -918,6 +928,7 @@ version: "1.0.0"
 内	nai
 挼	nai
 𦠸	nai
+#P226
 餒	nai
 魏	ngai
 餓	ngai
@@ -1045,6 +1056,7 @@ version: "1.0.0"
 腋	yai
 翊	yai
 翌	yai
+#P227
 翼	yai
 逸	yai
 汁	zai
@@ -1070,6 +1082,7 @@ version: "1.0.0"
 秩	zzai
 帙	zzai
 紩	zzai
+#ang
 鞥	ang
 揞	ang
 奔	bang
@@ -1157,6 +1170,7 @@ version: "1.0.0"
 管	gang
 鯀	gang
 㔶	gang
+#P228
 棍	gang
 謴	gang
 浛	ggang
@@ -1312,6 +1326,7 @@ version: "1.0.0"
 恁	nang
 人	nang
 儂	nang
+#P229
 暖	nang
 認	nyang
 濘	nyang
@@ -1487,6 +1502,7 @@ version: "1.0.0"
 穎	yang
 潁	yang
 郢	yang
+#P230
 針	zang
 津	zang
 珍	zang
@@ -1533,6 +1549,7 @@ version: "1.0.0"
 塵	zzang
 曾	zzang
 朕	zzang
+#au
 歐	au
 甌	au
 鷗	au
@@ -1593,6 +1610,7 @@ version: "1.0.0"
 犼	hau
 鱟	hau
 吼	hau
+#P231
 候	hhau
 堠	hhau
 喉	hhau
@@ -1699,6 +1717,7 @@ version: "1.0.0"
 鎪	sau
 螋	sau
 溲	sau
+#P232
 叟	sau
 瘦	sau
 瞍	sau
@@ -1771,6 +1790,7 @@ version: "1.0.0"
 甃	zau
 驟	zzau
 籀	zzau
+#e
 暴	bbe
 爆	bbe
 袍	bbe
@@ -1792,6 +1812,7 @@ version: "1.0.0"
 纛	dde
 翿	dde
 蹈	dde
+#P233
 逃	dde
 桃	dde
 陶	dde
@@ -1873,6 +1894,7 @@ version: "1.0.0"
 媢	me
 蛑	me
 髦	me
+#P234
 畝	me
 牡	me
 耨	ne
@@ -1924,6 +1946,7 @@ version: "1.0.0"
 竈	ze
 躁	ze
 譟	ze
+#ee
 側	cee
 厠	cee
 測	cee
@@ -1932,6 +1955,7 @@ version: "1.0.0"
 采	cee
 彩	cee
 菜	cee
+#P235
 特	ddee
 代	ddee
 岱	ddee
@@ -1988,6 +2012,7 @@ version: "1.0.0"
 倈	lee
 萊	lee
 末	mee
+#P236
 日	nee
 耐	nee
 挼	nee
@@ -2027,6 +2052,7 @@ version: "1.0.0"
 最	zee
 載	zee
 才	zzee
+#ei
 鼻	bbei
 幣	bbei
 比	bbei
@@ -2090,6 +2116,7 @@ version: "1.0.0"
 轡	bei
 蔽	bei
 嬖	bei
+#P237
 彳	cei
 尺	cei
 叱	cei
@@ -2307,50 +2334,210 @@ version: "1.0.0"
 嚭	pei
 譬	pei
 屁	pei
-式
-拭
-軾
-設
-識
-昔
-惜
-析
-淅
-晰
-皙
-蜥
-泄
-洩
-飾
-薺
-適
-息
-熄
-悉
-窸
-蟋
-闍
-褻
-畬
-釋
-懾
-攝
-裼
-錫
-奭
-薛
-螫
-西
-茜
-硒
-些
-奢
-賒
-犀
-簛
-樨
-鰓
-寫
-洗
-舍
-捨
+式	sei
+拭	sei
+軾	sei
+設	sei
+識	sei
+昔	sei
+惜	sei
+析	sei
+淅	sei
+晰	sei
+皙	sei
+蜥	sei
+泄	sei
+洩	sei
+飾	sei
+薺	sei
+適	sei
+息	sei
+熄	sei
+悉	sei
+窸	sei
+蟋	sei
+闍	sei
+#P238
+褻	sei
+畬	sei
+釋	sei
+懾	sei
+攝	sei
+裼	sei
+錫	sei
+奭	sei
+薛	sei
+螫	sei
+西	sei
+茜	sei
+硒	sei
+些	sei
+奢	sei
+賒	sei
+犀	sei
+簛	sei
+樨	sei
+鰓	sei
+寫	sei
+洗	sei
+舍	sei
+捨	sei
+髓	sei
+祟	sei
+跣	sei
+銑	sei
+冼	sei
+璽	sei
+世	sei
+貰	sei
+勢	sei
+瀉	sei
+細	sei
+卸	sei
+施	sei
+猞	sei
+赦	sei
+啻	sei
+婿	sei
+晳	sei
+皙	sei
+賜	sei
+賽	sei
+夕	ssei
+汐	ssei
+矽	ssei
+穸	ssei
+石	ssei
+炻	ssei
+蝕	ssei
+食	ssei
+射	ssei
+席	ssei
+寂	ssei
+碩	ssei
+逪	ssei
+藉	ssei
+籍	ssei
+鼫	ssei
+劑	ssei
+謝	ssei
+榭	ssei
+麝	ssei
+逝	ssei
+誓	ssei
+噬	ssei
+邪	ssei
+齊	ssei
+薺	ssei
+臍	ssei
+蠐	ssei
+鱭	ssei
+佘	ssei
+茈	ssei
+徐	ssei
+匙	ssei
+斜	ssei
+蛇	ssei
+隨	ssei
+薯	ssei
+社	ssei
+嶼	ssei
+踢	tei
+惕	tei
+剔	tei
+倜	tei
+逖	tei
+梯	tei
+銻	tei
+鵜	tei
+體	tei
+舔	tei
+替	tei
+涕	tei
+剃	tei
+嚏	tei
+屜	tei
+未	wei
+味	wei
+肥	wei
+淝	wei
+微	wei
+薇	wei
+尾	wei
+支	zei
+灸	zei
+織	zei
+跡	zei
+蹟	zei
+𨒪	zei
+浙	zei
+積	zei
+脊	zei
+瘠	zei
+鶺	zei
+蹐	zei
+載	zei
+隻	zei
+績	zei
+職	zei
+磧	zei
+摭	zei
+稷	zei
+鯽	zei
+氏	zei
+卮	zei
+梔	zei
+枝	zei
+肢	zei
+豬	zei
+潴	zei
+嗟	zei
+躋	zei
+遮	zei
+齏	zei
+紙	zei
+姐	zei
+煮	zei
+赭	zei
+際	zei
+製	zei
+掣	zei
+劑	zei
+擠	zei
+濟	zei
+躋	zei
+霽	zei
+柘	zei
+借	zei
+藉	zei
+祭	zei
+傺	zei
+穄	zei
+鰶	zei
+漈	zei
+蔗	zei
+鷓	zei
+𣥼	zei	#字形不確定
+直	zzei
+值	zzei
+殖	zzei
+植	zzei
+埴	zzei
+湜	zzei
+掷	zzei
+踯	zzei
+蛰	zzei
+蹢	zzei
+箸	zzei
+滞	zzei
+彘	zzei
+池	zzei
+墀	zzei
+坻	zzei
+舐	zzei
+苎	zzei
+豸	zzei
+#eng
+
+
+
