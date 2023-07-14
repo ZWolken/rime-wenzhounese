@@ -40,6 +40,7 @@ patch:
 		- derive/au$/ao/				#甌
 		- derive/ee$/ei/				#开
 		- derive/eu$/ou/				#多
+		- derive/ii$/i/					#吃
 
 		#單獨匹配：
 		#- derive/^ia$/yia/#約
