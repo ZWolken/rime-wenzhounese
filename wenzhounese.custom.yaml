@@ -13,7 +13,6 @@
 
 patch:
 	"speller/algebra":
-		- abbrev/^([bcdfghjklprstvwxyz]).+$/$1/	 # 對齊標準行
 		#濁聲母：
 		- derive/^bb/b/
 		- derive/^dd/d/
@@ -44,6 +43,7 @@ patch:
 		- derive/o$/u/					#八
 		#- derive/oe$/u/#暗、半
 		- derive/ov$/ou/				#土
+		#- derive/u$/ou/#苦
 
 		#單獨匹配：
 		#nga眼
@@ -55,3 +55,5 @@ patch:
 		- derive/^hho$/wu/			#話
 		#- derive/^nyo$/nvo/#玉
 		- derive/^o$/wu/				#握
+		- derive/^u$/wu/				#烏
+		- derive/^uo$/wo/				#凹
