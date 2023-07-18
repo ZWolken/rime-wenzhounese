@@ -44,6 +44,7 @@ patch:
 		#- derive/oe$/u/#暗、半
 		- derive/ov$/ou/				#土
 		#- derive/u$/ou/#苦
+		- derive/uo$/o/
 
 		#單獨匹配：
 		#nga眼
@@ -57,3 +58,4 @@ patch:
 		- derive/^o$/wu/				#握
 		- derive/^u$/wu/				#烏
 		- derive/^uo$/wo/				#凹
+		- derive/^nyv$/nv/			#軟
