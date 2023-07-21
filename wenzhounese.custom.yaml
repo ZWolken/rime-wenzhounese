@@ -13,49 +13,23 @@
 
 patch:
 	"speller/algebra":
+	#聲母：a ae ai ang au e ee ei eng eu i ie ii o oe ong ov u uo v
 		#濁聲母：
-		- derive/^bb/b/
-		- derive/^dd/d/
-		- derive/^gg/g/
-		- derive/^hh//					#!check needed
-		- derive/^jj/j/
-		- derive/^ss/z/
-		- derive/^zz/z/
+		#建議開啓，濁聲母跟清聲母較難區別
+		#對於行首加#號注釋的行，其匹配對象的韻母也有模糊音轉換，將在後文進行單獨配備轉換，爲避免衝突建議保持不變（關閉）
+		- derive/^bb(a|ai|ang|e|ei|eng|i|ie|ong|u)$/b$1/	#排、陪、笨、抱、皮、病、便、嫖、蓬、部
+		#- derive/^bb(o|oe|ov|uo)$/b$1/ #薄、盆、葡、傍
+		- derive/^dd(a|ai|ang|e|ei|eng|i|ie|ong)$/d$1/		#談、隊、疼、桃、弟、停、田、條、同
+		#- derive/^dd(au|ee|eu|o|oe|ov)$/d$1/ #投、袋、讀、踱、臀、涂
+		- derive/^gg(a|ai|ang|e|i|ie|ong|u|v)$/g$1/				#解、潰、浛、戤、渠、⿰石官、觳、嗝
+		#- derive/^gg(au|ee|o|oe)$/g$1/ #摳、徛、枷、餩
+		- derive/^hh(a|ae|ang|e|ong)$/$1/									#鹹、幸、亘、號、縫
+		#- derive/^hh(au|ee|o|oe|uo)$/$1/ #后、害、話、盒、爻
+		- derive/^jj(i|ie|v)$/j$1/												#場、橋、傳
+		- derive/^jj(a|ai|ang|ong)$/ji$1/									#著、及、僅、窮
+		#- derive/^jj(au|o)$/ji$1/ #舊、局
+		- derive/^ss(a|ai|ang|e|ei|eng|ong|uo)$/z$1/			#柴、實、尋、造、齊、成、絨、脏
+		#- derive/^ss(au|ee|eu|ii|o|oe)$/z$1/ #愁、賊、助、時、昨、存
+		- derive/^zz(a|ai|ang|ei|eng)$/z$1/								#站、侄、陣、箸、橙
+		#- derive/^zz(au|ee|eu|ii|o|oe)$/z$1/ #驟、才、𢭟、遲、茶、黢
 
-		#聲母
-		- derive/^i/y/
-		- derive/^i/yi/
-		- derive/^j/ji/
-		- derive/^jj/ji/
-		- derive/^ny/ni/
-		- derive/^nyi/ni/
-		- derive/^u/v/
-		- derive/^w/v/
-		#- derive/^w/f/
-		- derive/^q/qi/
-		- derive/^x/xi/
-
-		#韻母：
-		- derive/au$/ao/				#甌
-		- derive/ee$/ei/				#开
-		- derive/eu$/ou/				#多
-		- derive/ii$/i/					#吃
-		- derive/o$/u/					#八
-		#- derive/oe$/u/#暗、半
-		- derive/ov$/ou/				#土
-		#- derive/u$/ou/#苦
-		- derive/uo$/o/
-
-		#單獨匹配：
-		#nga眼
-		#ae杏
-		#!!!- derive/^nyang$/yang/#迎
-		- derive/^iau$/yao/			#優
-		#ngee呆
-		- derive/^nyi$/ni/			#熱
-		- derive/^hho$/wu/			#話
-		#- derive/^nyo$/nvo/#玉
-		- derive/^o$/wu/				#握
-		- derive/^u$/wu/				#烏
-		- derive/^uo$/wo/				#凹
-		- derive/^nyv$/nv/			#軟
