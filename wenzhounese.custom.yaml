@@ -1,5 +1,5 @@
 # 文件名：wenzhounese.custom.yaml
-# 針對wenzhounese.schema.yaml的模糊音
+# 針對wenzhounese.dict.yaml的模糊音
 # Date: 2023-07
 # Rime dictionary custom
 # Wenzhounese - 溫州話
@@ -9,27 +9,259 @@
 # encoding: utf-8
 # Wolken <zwolken@foxmail.com | zharry@web.de>
 # version: 1.0.0
-# iv jeu hho
+# iv jeu hho --> yu jiou wu
 
 patch:
-	"speller/algebra":
-	#聲母：a ae ai ang au e ee ei eng eu i ie ii o oe ong ov u uo v
-		#濁聲母：
-		#建議開啓，濁聲母跟清聲母較難區別
-		#對於行首加#號注釋的行，其匹配對象的韻母也有模糊音轉換，將在後文進行單獨配備轉換，爲避免衝突建議保持不變（關閉）
-		- derive/^bb(a|ai|ang|e|ei|eng|i|ie|ong|u)$/b$1/	#排、陪、笨、抱、皮、病、便、嫖、蓬、部
-		#- derive/^bb(o|oe|ov|uo)$/b$1/ #薄、盆、葡、傍
-		- derive/^dd(a|ai|ang|e|ei|eng|i|ie|ong)$/d$1/		#談、隊、疼、桃、弟、停、田、條、同
-		#- derive/^dd(au|ee|eu|o|oe|ov)$/d$1/ #投、袋、讀、踱、臀、涂
-		- derive/^gg(a|ai|ang|e|i|ie|ong|u|v)$/g$1/				#解、潰、浛、戤、渠、⿰石官、觳、嗝
-		#- derive/^gg(au|ee|o|oe)$/g$1/ #摳、徛、枷、餩
-		- derive/^hh(a|ae|ang|e|ong)$/$1/									#鹹、幸、亘、號、縫
-		#- derive/^hh(au|ee|o|oe|uo)$/$1/ #后、害、話、盒、爻
-		- derive/^jj(i|ie|v)$/j$1/												#場、橋、傳
-		- derive/^jj(a|ai|ang|ong)$/ji$1/									#著、及、僅、窮
-		#- derive/^jj(au|o)$/ji$1/ #舊、局
-		- derive/^ss(a|ai|ang|e|ei|eng|ong|uo)$/z$1/			#柴、實、尋、造、齊、成、絨、脏
-		#- derive/^ss(au|ee|eu|ii|o|oe)$/z$1/ #愁、賊、助、時、昨、存
-		- derive/^zz(a|ai|ang|ei|eng)$/z$1/								#站、侄、陣、箸、橙
-		#- derive/^zz(au|ee|eu|ii|o|oe)$/z$1/ #驟、才、𢭟、遲、茶、黢
+  "speller/algebra":
+  #聲母：b bb c d dd f g gg h hh i j jj k l m n ng ny p q s ss t u w x y z zz
+  #韻母：a ae ai ang au e ee ei eng eu i ie ii o oe ong ov u uo v
 
+    #濁聲母：
+
+    #建議開啓，濁聲母跟清聲母較難區別
+    #對於行首加#號注釋的行，其匹配對象的聲母韻母均存在模糊音轉換，
+    #將在後文進行單獨配備轉換，爲避免衝突建議保持該行狀態不變（關閉）
+
+    #bb-->b
+    - derive/^bb(a|ai|ang|e|ei|eng|i|ie|ong|u)$/b$1/
+        #排、陪、笨、抱、皮、病、便、嫖、蓬、部
+    #- derive/^bb(o|oe|ov|uo)$/b$1/
+        #薄、盆、葡、傍
+
+    #dd-->d
+    - derive/^dd(a|ai|ang|e|ei|eng|i|ie|ong)$/d$1/
+        #談、隊、疼、桃、弟、停、田、條、同
+    #- derive/^dd(au|ee|eu|o|oe|ov)$/d$1/
+        #投、袋、讀、踱、臀、涂
+
+    #gg-->g
+    - derive/^gg(a|ai|ang|e|i|ie|ong|u|v)$/g$1/
+        #解、潰、浛、戤、渠、⿰石官、觳、嗝
+    #- derive/^gg(au|ee|o|oe)$/g$1/
+        #摳、徛、枷、餩
+
+    #hh-->[none]
+    - derive/^hh(a|ae|ang|e|ong)$/$1/
+        #鹹、幸、亘、號、縫
+    #- derive/^hh(au|ee|o|oe|uo)$/$1/
+        #后、害、話、盒、爻
+
+    #jj-->j/ji
+    - derive/^jj(i|ie|v)$/j$1/
+        #場、橋、傳
+    - derive/^jj(a|ai|ang|ong)$/ji$1/
+        #著、及、僅、窮
+    #- derive/^jj(au|o)$/ji$1/
+        #舊、局
+
+    #ss-->z
+    - derive/^ss(a|ai|ang|e|ei|eng|ong|uo)$/z$1/
+        #柴、實、尋、造、齊、成、絨、脏
+    #- derive/^ss(au|ee|eu|ii|o|oe)$/z$1/
+        #愁、賊、助、時、昨、存
+
+    #zz-->z
+    - derive/^zz(a|ai|ang|ei|eng|ie)$/z$1/
+        #站、侄、陣、箸、橙、爭
+    #- derive/^zz(au|ee|eu|ii|o|oe)$/z$1/
+        #驟、才、𢭟、遲、茶、黢
+
+
+    #聲母：
+
+    #對於行首加#號注釋的行，其匹配對象的聲母韻母均存在模糊音轉換，
+    #將在後文進行單獨配備轉換，爲避免衝突建議保持該行狀態不變（關閉）
+
+    #i-->y
+    - derive/^i(a|ai|ang|e|o|ong|v)$/y$1/
+        #約、一、鷹、唷、泳、安
+    #- derive/^i(au|eu)$/y$1/
+        #優、育
+
+    #j-->ji
+    - derive/^j(a|ai|ang|ong)$/ji$1/
+        #脚、急、今、准
+    #- derive/^j(au|eu|o|uo)$/ji$1/
+        #九、酒、捉、妝
+
+    #ny-->ni/n
+    - derive/^ny(a|ai|ang|v)$/ni$1/
+        #鳥、逆、認、女
+    - derive/^ny(ai|i|ie|v)$/n$1/
+        #粘、逆、繞、女
+    #- derive/^ny(au|eu|o|uo)$/ni$1/
+        #鈕、肉、玉、濃
+
+    #u-->v
+    - derive/^u(a|ai|ang|ie)$/v$1/
+        #歪、偎、溫、奣
+
+    #w-->v
+    - derive/^w(a|ai|ang|e|ei|u)$/v$1/
+        #飯、佛、問、浮、肥、爲
+
+    #q-->qi
+    - derive/^q(a|ai|ang|ong)$/qi$1/
+        #鵲、吃、輕、春
+    #- derive/^q(au|eu|o|uo)$/qi$1/
+        #秋/臭、窗/闖
+
+    #x-->xi
+    - derive/^x(a|ai|ang|ong)$/xi$1/
+        #曉、吸、興、熏
+    #- derive/^x(au|eu|o|uo)$/xi$1/
+        #休、手、粟、雙
+
+
+
+	#韻母：
+
+    #對於行首加#號注釋的行，其匹配對象的聲母韻母均存在模糊音轉換，
+    #將在後文進行單獨配備轉換，爲避免衝突建議保持該行狀態不變（關閉）
+    #零聲母音節在`/^(...)?...$/`已經匹配有零聲母音節的例字均在首位
+
+    #au-->ao
+    - derive/^(c|d|g|h|k|l|n|ng|s|t|y|z)?au$/$1ao/
+        #甌、湊、斗、狗、佝、口、漏、冇、牛、搜、偷、右、走
+    #- derive/^(dd|gg|hh|i|j|jj|ny|q|x|zz)au$/$1ao/
+        #投、摳、后、優、九、舊、鈕、蚯、愁、休、驟
+
+    #ee-->ei
+    - derive/^(c|d|g|h|k|l|m|n|ng|s|t|z)?ee$/$1ei/
+        #愛、菜、德、該、海、開、來、末、日、呆、賽、態、災
+    #- derive/^(dd|gg|hh|ss|zz)ee$/$1ei/
+        #袋、徛、害、賊、才
+
+    #eu-->ou
+    - derive/^(c|d|l|n|s|t|y|z)eu$/$1ou/
+        #初、多、六、怒、速、拖/忒、熟、做
+    #- derive/^(dd|i|j|jj|ny|q|ss|x|zz)eu$/$1ou/
+        #讀、育、酒、逐、肉、秋/臭、助、手、𢭟
+
+    #ii-->i
+    - derive/^(c|s|z)ii$/$1i/
+        #氣、書/水、追
+    #- derive/^(ss|zz)ii$/$1i/
+        #時、遲
+
+    #o-->u
+    - derive/^(b|c|d|g|h|i|k|l|m|ng|n|p|s|t|y|z)?o$/$1u/
+        #下、八、車、躲、掛、花、唷、殼、綠、摸、牙、諾、怕、沙、托、續、查
+    #- derive/^(bb|dd|gg|hh|jj|j|ny|q|ss|x|zz)o$/$1u/
+        #薄、踱、枷、話、局、捉、玉、戳、昨、粟、茶
+
+    #oe-->v
+    - derive/^(b|c|d|h|k|l|m|ng|n|s|t|z)?oe$/$1v/
+        #暗、半、村、短、憨、渴、卵、滿、兀、男、算、吞、鑽
+    #- derive/^(bb|dd|gg|hh|ss|zz)oe$/$1v/
+        #盆、臀、餩、盒、存、黢
+
+    #ov-->v
+    - derive/^(b|c|d|f|l|m|n|ng|p|s|t|z)ov$/$1v/
+        #布、醋、都、付、驢、磨、奴、魚、浦、蘇、土、租
+    #- derive/^(bb|dd|w)ov$/$1v/
+        #葡、涂、霧
+
+    #uo-->o
+    - derive/^(b|i|m|p|y)?uo$/$1o/
+        #汪、飽、湧、貓、跑、床
+    #- derive/^(bb|hh|jj|j|ny|q|x)uo$/$1o/
+        #傍、爻/房、狀、妝、濃、闖、雙
+
+
+    #聲母ng保留原樣：二/吾/我ng 眼nga 餓ngai 牛ngau 熬nge 呆ngee 硬ngie 牙ngo
+    - derive/^ng$/en/				#我、吾
+    - derive/^ng$/eng/			#同上
+    #韻母ae保留原樣：杏ae
+
+    #單獨匹配
+    #聲母和韻母均有匹配更改，由於正則匹配限制，單獨編寫
+    #根據韻母分別編寫
+
+    #au-->ao
+    - derive/^ddau$/dao/		#投
+    - derive/^ggau$/gao/		#摳
+    - derive/^hhau$/ao/			#后
+    - derive/^iau$/yao/			#優
+    - derive/^jau$/jiao/		#九
+    - derive/^jjau$/jiao/		#舊
+    - derive/^nyau$/niao/		#鈕
+    - derive/^qau$/qiao/		#蚯
+    - derive/^ssau$/zao/		#愁
+    - derive/^xau$/xiao/		#休
+    - derive/^zzau$/zao/		#驟
+
+    #ee-->ei
+    - derive/^ddee$/dei/		#袋
+    - derive/^ggee$/gei/		#徛
+    - derive/^hhee$/ei/			#害
+    - derive/^ssee$/zei/		#賊
+    - derive/^zzee$/zei/		#才
+
+    #eu-->ou
+    - derive/^ddeu$/dou/		#讀
+    - derive/^ieu$/you/			#育
+    - derive/^jeu$/jiou/		#酒
+    - derive/^jjeu$/jiou/		#逐
+
+    #- derive/^jeu$/jiu/ #酒
+    #- derive/^jjeu$/jiu/ #逐
+    #爲避免跟下文jjo和jo混淆，請選擇性開啓
+
+    - derive/^nyeu$/niou/		#肉
+    - derive/^qeu$/qiou/		#秋/臭
+    - derive/^sseu$/zou/		#助
+    - derive/^xeu$/xiou/		#手
+    - derive/^zzeu$/zou/		#𢭟
+
+    #i
+    - derive/^i$/yi/				#烟
+
+    #ii-->i
+    - derive/^ssii$/zi/			#時
+    - derive/^zzii$/zi/			#遲
+
+    #o-->u
+    - derive/^bbo$/bu/			#薄
+    - derive/^ddo$/du/			#踱
+    - derive/^ggo$/gu/			#枷
+    - derive/^hho$/wu/			#話
+    - derive/^io$/yu/				#唷
+    - derive/^jjo$/jiu/			#局
+    - derive/^jo$/jiu/			#捉
+    - derive/^nyo$/niu/			#玉
+    - derive/^o$/wu/				#下
+    - derive/^qo$/qiu/			#戳
+    - derive/^sso$/zu/			#昨
+    - derive/^xo$/xiu/			#粟、縮
+    - derive/^zzo$/zu/			#茶
+
+    #oe-->v
+    - derive/^bboe$/bv/			#盆
+    - derive/^ddoe$/dv/			#臀
+    - derive/^ggoe$/gv/			#餩
+    - derive/^hhoe$/v/			#盒
+    - derive/^ssoe$/zv/			#存
+    - derive/^zzoe$/zv/			#黢
+
+    #ov-->v
+    - derive/^bbov$/bv/			#葡
+    - derive/^ddov$/dv/			#涂
+
+    #u
+    - derive/^u$/wu/				#屋
+    - derive/^hhu$/wu/			#話
+
+    #uo-->o
+    - derive/^bbuo$/bo/			#傍
+    - derive/^hhuo$/wo/			#爻、望、房
+    - derive/^iuo$/yo/			#湧
+    - derive/^jjuo$/jio/		#狀
+    - derive/^juo$/jio/			#妝
+    - derive/^nyuo$/nio/		#濃
+    - derive/^quo$/qio/			#闖
+    - derive/^uo$/wo/				#汪
+    - derive/^xuo$/xio/			#雙
+
+    #iv-->yu
+    - derive/^iv$/yu/				#溫

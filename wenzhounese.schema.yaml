@@ -61,4 +61,4 @@ key_binder:
   import_preset: default
 
 recognizer:
-  import_preset: default  
+  import_preset: default
