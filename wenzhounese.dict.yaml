@@ -1,9 +1,10 @@
-#
+# 文件名：wenzhounese.dict.yaml
 # Date: 2023-07
 # Rime dictionary
 # Wenzhounese - 溫州話
 # encoding: utf-8
-# Wolken (zwolken@foxmail.com | zharry@web.de)
+# 本作品採用姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)進行許可。
+# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 
 ---
 max_phrase_length: 7	

@@ -27,13 +27,14 @@
 
 1.	根據系統安裝對應的[Rime](https://rime.im/download/)版本
 
+-	Android系統安裝使用可查閲[osfans/trime](https://github.com/osfans/trime)以及[SivanLaai/rime-pure](https://github.com/SivanLaai/rime-pure)
+-	iOS系統安裝使用可查閲[Hamster](https://github.com/imfuxiao/Hamster)
+
 2.	將`wenzhounese.schema.yaml`、`wenzhounese.dict.yaml`以及`wenzhounese.custom.yaml`（選擇性）三個文件放入用戶資料夾内
 > 相關路徑：
-
-> 【中州韻】 `~/.config/ibus/rime/`
 >
-> 【小狼毫】 `%APPDATA%\Rime`
->
+> 【中州韻】 `~/.config/ibus/rime/`<br>
+> 【小狼毫】 `%APPDATA%\Rime`<br>
 > 【鼠鬚管】 `~/Library/Rime/`
 
 3.	打開對應Rime版本的“輸入法設定”，選中`溫州話輸入法`以開啓
@@ -43,9 +44,6 @@
 5.	切換至對應版本的Rime輸入法，按下 `Control+｀` 或 `F4` （Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
 
 6.	開始輸入
-
--	Android系統安裝可查閲[osfans/trime](https://github.com/osfans/trime)以及[SivanLaai/rime-pure](https://github.com/SivanLaai/rime-pure)
-
 
 
 ## 許可證

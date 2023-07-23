@@ -7,14 +7,15 @@
 # 非常不嚴謹！！！！！
 # 僅適配2004.11寧波出版社出版的《溫州話》内的沈氏溫州話拼寫方案
 # encoding: utf-8
-# Wolken <zwolken@foxmail.com | zharry@web.de>
+# 本作品採用姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)進行許可。
+# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 # version: 1.0.0
-# iv jeu hho --> yu jiou wu
+# iv jeu hho --> yu jiu wu
 
 patch:
   "speller/algebra":
-  #聲母：b bb c d dd f g gg h hh i j jj k l m n ng ny p q s ss t u w x y z zz
-  #韻母：a ae ai ang au e ee ei eng eu i ie ii o oe ong ov u uo v
+    #聲母：b bb c d dd f g gg h hh i j jj k l m n ng ny p q s ss t u w x y z zz
+    #韻母：a ae ai ang au e ee ei eng eu i ie ii o oe ong ov u uo v
 
     #濁聲母：
 
@@ -47,12 +48,12 @@ patch:
         #后、害、話、盒、爻
 
     #jj-->j/ji
-    - derive/^jj(i|ie|v)$/j$1/
-        #場、橋、傳
+    - derive/^jj(ai|i|ie|v)$/j$1/
+        #及、場、橋、傳
     - derive/^jj(a|ai|ang|ong)$/ji$1/
         #著、及、僅、窮
-    #- derive/^jj(au|o)$/ji$1/
-        #舊、局
+    #- derive/^jj(au|eu|o|uo)$/ji$1/
+        #舊、逐、局、狀
 
     #ss-->z
     - derive/^ss(a|ai|ang|e|ei|eng|ong|uo)$/z$1/
@@ -145,10 +146,10 @@ patch:
         #時、遲
 
     #o-->u
-    - derive/^(b|c|d|g|h|i|k|l|m|ng|n|p|s|t|y|z)?o$/$1u/
-        #下、八、車、躲、掛、花、唷、殼、綠、摸、牙、諾、怕、沙、托、續、查
-    #- derive/^(bb|dd|gg|hh|jj|j|ny|q|ss|x|zz)o$/$1u/
-        #薄、踱、枷、話、局、捉、玉、戳、昨、粟、茶
+    - derive/^(b|c|d|g|h|i|j|k|l|m|ng|n|p|s|t|y|z)?o$/$1u/
+        #下、八、車、躲、掛、花、唷、捉、殼、綠、摸、牙、諾、怕、沙、托、續、查
+    #- derive/^(bb|dd|gg|hh|jj|ny|q|ss|x|zz)o$/$1u/
+        #薄、踱、枷、話、局、玉、戳、昨、粟、茶
 
     #oe-->v
     - derive/^(b|c|d|h|k|l|m|ng|n|s|t|z)?oe$/$1v/
@@ -170,7 +171,7 @@ patch:
 
 
     #聲母ng保留原樣：二/吾/我ng 眼nga 餓ngai 牛ngau 熬nge 呆ngee 硬ngie 牙ngo
-    - derive/^ng$/en/				#我、吾
+    - derive/^ng$/en/			#我、吾
     - derive/^ng$/eng/			#同上
     #韻母ae保留原樣：杏ae
 
@@ -203,11 +204,8 @@ patch:
     - derive/^ieu$/you/			#育
     - derive/^jeu$/jiou/		#酒
     - derive/^jjeu$/jiou/		#逐
-
-    #- derive/^jeu$/jiu/ #酒
-    #- derive/^jjeu$/jiu/ #逐
-    #爲避免跟下文jjo和jo混淆，請選擇性開啓
-
+    - derive/^jeu$/jiu/			#酒
+    - derive/^jjeu$/jiu/		#逐
     - derive/^nyeu$/niou/		#肉
     - derive/^qeu$/qiou/		#秋/臭
     - derive/^sseu$/zou/		#助
@@ -215,7 +213,7 @@ patch:
     - derive/^zzeu$/zou/		#𢭟
 
     #i
-    - derive/^i$/yi/				#烟
+    - derive/^i$/yi/			#烟
 
     #ii-->i
     - derive/^ssii$/zi/			#時
@@ -226,11 +224,10 @@ patch:
     - derive/^ddo$/du/			#踱
     - derive/^ggo$/gu/			#枷
     - derive/^hho$/wu/			#話
-    - derive/^io$/yu/				#唷
-    - derive/^jjo$/jiu/			#局
-    - derive/^jo$/jiu/			#捉
+    - derive/^io$/yu/			#唷
+    - derive/^jjo$/ju/			#局
     - derive/^nyo$/niu/			#玉
-    - derive/^o$/wu/				#下
+    - derive/^o$/wu/			#下
     - derive/^qo$/qiu/			#戳
     - derive/^sso$/zu/			#昨
     - derive/^xo$/xiu/			#粟、縮
@@ -249,7 +246,7 @@ patch:
     - derive/^ddov$/dv/			#涂
 
     #u
-    - derive/^u$/wu/				#屋
+    - derive/^u$/wu/			#屋
     - derive/^hhu$/wu/			#話
 
     #uo-->o
@@ -260,8 +257,16 @@ patch:
     - derive/^juo$/jio/			#妝
     - derive/^nyuo$/nio/		#濃
     - derive/^quo$/qio/			#闖
-    - derive/^uo$/wo/				#汪
+    - derive/^uo$/wo/			#汪
     - derive/^xuo$/xio/			#雙
 
     #iv-->yu
-    - derive/^iv$/yu/				#溫
+    - derive/^iv$/yu/			#溫
+
+    #以下為個人定制模糊音（疑似變音？），字典裏未列出該發音
+    #jie--->jue
+    - derive/^jie$/jue/			#叫
+    #jjie--->jue
+    - derive/^jjie$/jue/		#橋
+    #nyi--->yi
+    - derive/^nyi$/yi/			#昨日

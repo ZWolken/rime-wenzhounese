@@ -1,5 +1,9 @@
+# 文件名：wenzhounese.schema.yaml
+# Date: 2023-07
 # Rime schema
 # encoding: utf-8
+# 本作品採用姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)進行許可。
+# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 
 schema:
   schema_id: wenzhounese
@@ -16,6 +20,7 @@ switches:
     reset: 0
     states: [ 中文, 西文 ]
   - name: simplification
+    #reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
     states: [ 漢字, 汉字 ]
   - name: full_shape
     states: [ 半角, 全角 ]

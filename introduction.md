@@ -7,3 +7,11 @@
 
 
 八bo[po]-->薄bbo[bo]	尖ji[tɕi]-->件jji[ʥi]	救jiau[tɕiau]-->球jjiau[ʥiau]
+
+
+
+
+## 附：Rime輸入法配色方案（皮肤）相關：
+
+1.	[Rime Squirrel 鼠须管输入法配置详解](https://ssnhd.com/2022/01/06/rime/)
+2.	[Rime皮肤配置和效果图](https://zhuanlan.zhihu.com/p/641635481)
