@@ -1,4 +1,4 @@
-<h1 align="center">吳語·溫州話   <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><font size="4">简体中文</font></a><br><a rel="简体中文" href="https://github.com/ZWolken/rime-wenzhounese/blob/main/README_simp.md"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a></h1>
+<h1 align="center">吳語·溫州話<a rel="简体中文" href="https://github.com/ZWolken/rime-wenzhounese/blob/main/README_simp.md"><br><font size="4">简体中文</font></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a></h1>
 
 ## 字典已完成收錄，可正常輸入單字<br>詞典尚未完成最終收錄，仍正在完善之中
 

@@ -1,4 +1,4 @@
-<h1 align="center">吴语·温州话   <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><font size="4">繁體中文</font></a><br><a rel="繁體中文" href="https://github.com/ZWolken/rime-wenzhounese/blob/main/README.md"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a></h1>
+<h1 align="center">吴语·温州话<a rel="繁体中文" href="https://github.com/ZWolken/rime-wenzhounese/blob/main/README.md"><br><font size="4">繁体中文</font></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a></h1>
 
 ## 字典已完成收录，可正常输入单字<br>词典尚未完成最终收录，仍正在完善之中
 
