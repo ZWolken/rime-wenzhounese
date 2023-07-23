@@ -88,7 +88,7 @@ patch:
     #ny-->ni/n
     - derive/^ny(a|ai|ang|v)$/ni$1/
         #鳥、逆、認、女
-    - derive/^ny(ai|i|ie|v)$/n$1/
+    - derive/^ny(i|ie|v)$/n$1/
         #粘、逆、繞、女
     #- derive/^ny(au|eu|o|uo)$/ni$1/
         #鈕、肉、玉、濃
@@ -100,6 +100,8 @@ patch:
     #w-->v
     - derive/^w(a|ai|ang|e|ei|u)$/v$1/
         #飯、佛、問、浮、肥、爲
+    #- derive/^w(ov)$/v$1
+        #霧
 
     #q-->qi
     - derive/^q(a|ai|ang|ong)$/qi$1/
@@ -124,7 +126,7 @@ patch:
     #au-->ao
     - derive/^(c|d|g|h|k|l|n|ng|s|t|y|z)?au$/$1ao/
         #甌、湊、斗、狗、佝、口、漏、冇、牛、搜、偷、右、走
-    #- derive/^(dd|gg|hh|i|j|jj|ny|q|x|zz)au$/$1ao/
+    #- derive/^(dd|gg|hh|i|j|jj|ny|q|ss|x|zz)au$/$1ao/
         #投、摳、后、優、九、舊、鈕、蚯、愁、休、驟
 
     #ee-->ei
@@ -146,10 +148,10 @@ patch:
         #時、遲
 
     #o-->u
-    - derive/^(b|c|d|g|h|i|j|k|l|m|ng|n|p|s|t|y|z)?o$/$1u/
-        #下、八、車、躲、掛、花、唷、捉、殼、綠、摸、牙、諾、怕、沙、托、續、查
-    #- derive/^(bb|dd|gg|hh|jj|ny|q|ss|x|zz)o$/$1u/
-        #薄、踱、枷、話、局、玉、戳、昨、粟、茶
+    - derive/^(b|c|d|g|h|i|j|k|l|m|ng|n|p|q|s|t|x|y|z)?o$/$1u/
+        #下、八、車、躲、掛、花、唷、捉、殼、綠、摸、牙、諾、怕、戳、沙、托、粟、續、查
+    #- derive/^(bb|dd|gg|hh|jj|ny|ss|x|zz)o$/$1u/
+        #薄、踱、枷、話、局、玉、昨、粟、茶
 
     #oe-->v
     - derive/^(b|c|d|h|k|l|m|ng|n|s|t|z)?oe$/$1v/
@@ -207,9 +209,12 @@ patch:
     - derive/^jeu$/jiu/			#酒
     - derive/^jjeu$/jiu/		#逐
     - derive/^nyeu$/niou/		#肉
+    - derive/^nyeu$/niu/		#肉
     - derive/^qeu$/qiou/		#秋/臭
+    - derive/^qeu$/qiu/			#秋/臭
     - derive/^sseu$/zou/		#助
     - derive/^xeu$/xiou/		#手
+    - derive/^xeu$/xiu/			#手
     - derive/^zzeu$/zou/		#𢭟
 
     #i
@@ -244,6 +249,7 @@ patch:
     #ov-->v
     - derive/^bbov$/bv/			#葡
     - derive/^ddov$/dv/			#涂
+    - derive/^wov$/v/			#霧
 
     #u
     - derive/^u$/wu/			#屋
@@ -263,10 +269,10 @@ patch:
     #iv-->yu
     - derive/^iv$/yu/			#溫
 
-    #以下為個人定制模糊音（疑似變音？），字典裏未列出該發音
+    #以下為個人定制模糊音（疑似變音？），字典未列出下述發音
     #jie--->jue
-    - derive/^jie$/jue/			#叫
+    - derive/^jie$/jue/ #叫
     #jjie--->jue
-    - derive/^jjie$/jue/		#橋
+    - derive/^jjie$/jue/ #橋
     #nyi--->yi
-    - derive/^nyi$/yi/			#昨日
+    #- derive/^nyi$/yi/ #昨日

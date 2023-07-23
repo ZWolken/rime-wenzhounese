@@ -7075,69 +7075,69 @@ version: "1.0.0"
 去	qv
 串	qv
 釧	qv
-戌	xu
-血	xu
-賉	xu
-洫	xu
-忽	xu
-笏	xu
-惚	xu
-説	xu
-雪	xu
-寣	xu
-𥇰	xu	#added
-噱	xu
-蟀	xu
-蟋	xu
-籲	xu
-歡	xu
-昏	xu
-盱	xu
-宣	xu
-揮	xu
-葷	xu
-暉	xu
-琿	xu
-婚	xu
-懸	xu
-虛	xu
-諼	xu
-閽	xu
-喧	xu
-揎	xu
-萱	xu
-輝	xu
-暄	xu
-瑄	xu
-靴	xu
-噓	xu
-儇	xu
-墟	xu
-歔	xu
-麾	xu
-鼾	xu
-翾	xu
-獾	xu
-選	xu
-許	xu
-栩	xu
-毀	xu
-詡	xu
-䘆	xu
-卉	xu
-漢	xu
-諱	xu
-緯	xu
-奐	xu
-喚	xu
-渙	xu
-煥	xu
-瘓	xu
-絢	xu
-酗	xu
-渲	xu
-楦	xu
-煦	xu
+戌	xv
+血	xv
+賉	xv
+洫	xv
+忽	xv
+笏	xv
+惚	xv
+説	xv
+雪	xv
+寣	xv
+𥇰	xv	#added
+噱	xv
+蟀	xv
+蟋	xv
+籲	xv
+歡	xv
+昏	xv
+盱	xv
+宣	xv
+揮	xv
+葷	xv
+暉	xv
+琿	xv
+婚	xv
+懸	xv
+虛	xv
+諼	xv
+閽	xv
+喧	xv
+揎	xv
+萱	xv
+輝	xv
+暄	xv
+瑄	xv
+靴	xv
+噓	xv
+儇	xv
+墟	xv
+歔	xv
+麾	xv
+鼾	xv
+翾	xv
+獾	xv
+選	xv
+許	xv
+栩	xv
+毀	xv
+詡	xv
+䘆	xv
+卉	xv
+漢	xv
+諱	xv
+緯	xv
+奐	xv
+喚	xv
+渙	xv
+煥	xv
+瘓	xv
+絢	xv
+酗	xv
+渲	xv
+楦	xv
+煦	xv
 術	yv
 穴	yv
 聿	yv
@@ -7791,7 +7791,7 @@ version: "1.0.0"
 惡坑
 #以上詞匯來自pearapple123/rime-iuciou
 
-訾那妝
+訾恁妝
 困一寣
 睏一寣
 靠造化
@@ -7803,3 +7803,4 @@ version: "1.0.0"
 黃昏
 人客
 后生兒
+昨日	sso yi

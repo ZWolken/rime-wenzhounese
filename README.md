@@ -25,25 +25,71 @@
 
 ## 安裝
 
-1.	根據系統安裝對應的[Rime](https://rime.im/download/)版本
+1.	根據系統安裝對應的[Rime輸入法引擎](https://rime.im/download/)版本
 
--	Android系統安裝使用可查閲[osfans/trime](https://github.com/osfans/trime)以及[SivanLaai/rime-pure](https://github.com/SivanLaai/rime-pure)
--	iOS系統安裝使用可查閲[Hamster](https://github.com/imfuxiao/Hamster)
+-	Android系統安裝使用可參閲[osfans/trime](https://github.com/osfans/trime)以及[SivanLaai/rime-pure](https://github.com/SivanLaai/rime-pure)
+-	iOS系統安裝使用可參閲[Hamster](https://github.com/imfuxiao/Hamster)
 
-2.	將`wenzhounese.schema.yaml`、`wenzhounese.dict.yaml`以及`wenzhounese.custom.yaml`（選擇性）三個文件放入用戶資料夾内
-> 相關路徑：
+2.	將系統輸入切換至Rime輸入法
+
+3.	在狀態欄上右鍵Rime圖標，點擊`用戶文件夾`以開啓
+> 亦可手動打開Rime用戶文件夾，路徑如下：
 >
 > 【中州韻】 `~/.config/ibus/rime/`<br>
 > 【小狼毫】 `%APPDATA%\Rime`<br>
 > 【鼠鬚管】 `~/Library/Rime/`
 
-3.	打開對應Rime版本的“輸入法設定”，選中`溫州話輸入法`以開啓
+2.	將`wenzhounese.schema.yaml`、`wenzhounese.dict.yaml`以及`wenzhounese.custom.yaml`（選擇性）三個文件放入用戶資料夾内
 
-4.	點擊`重新部署`
+3.	在狀態欄上右鍵Rime圖標，點擊`輸入法設定`以打開啓設定界面，勾選中`溫州話輸入法`以開啓
 
-5.	切換至對應版本的Rime輸入法，按下 `Control+｀` 或 `F4` （Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
+4.	在狀態欄上右鍵Rime圖標，點擊`重新部署`
+
+5.	按下 `Control+｀` 或 `F4` （Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
 
 6.	開始輸入
+
+## 簡繁體字形轉換
+
+### 默認繁體字形原因
+
+考慮到繁體字形保留的信息比簡體字形要多，且繁轉簡比簡轉繁要**容易且不容易出錯**很多，因此字詞庫在錄入時均使用繁體字形。
+
+### 如何輸出簡體字形
+
+Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
+1.	切換至Rime輸入法
+2.	按下 `Control+｀` 或 `F4` （Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
+3.	再次按下 `Control+｀` 或 `F4`，重新喚出方案選單
+4.	再次選擇`溫州話輸入法`，此時會進入下一級菜單
+5.	選擇`3. 漢字 → 汉字`，此時該選項會變爲`3. 汉字 → 漢字`，即可開啓簡體字形輸出
+> 若需切換回繁體字形，重複上述步驟改回`3. 漢字 → 汉字`的狀態即可<br>
+> 注意：此簡體字形輸出更改行爲為臨時更改，在切換輸入法后會重新回到繁體字形輸出模式。
+
+### 如何將簡體字形輸出設置爲默認
+
+1.	在狀態欄上右鍵Rime圖標點擊`用戶文件夾`以開啓
+> 亦可手動打開Rime用戶文件夾，路徑如下：
+>
+> 【中州韻】 `~/.config/ibus/rime/`<br>
+> 【小狼毫】 `%APPDATA%\Rime`<br>
+> 【鼠鬚管】 `~/Library/Rime/`
+2.	使用`記事本`或`Visual Studio Code`等軟體打開`wenzhounese.schema.yaml`文件以備用編輯
+3.	跳轉到第23行，具體代碼應如下：
+```yaml
+22  - name: simplification
+23    #reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
+24    states: [ 漢字, 汉字 ]
+```
+4.	刪除第23行行首的`#`符號，修改成如下所示：
+```yaml
+reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
+```
+5.	保存文件更改
+6.	在狀態欄上右鍵Rime圖標，點擊`重新部署`
+7.	喚出方案選單，再次選擇`溫州話輸入法`
+8.	此時已將簡體字形輸出設置爲默認狀態
+> 若需切換回默認繁體字形輸出，將即可`wenzhounese.schema.yaml`的第23行行首的`#`符號添加回即可。
 
 
 ## 許可證
@@ -52,4 +98,4 @@
 
 >簡體中文：知识共享署名-禁止演绎 4.0 国际许可协议
 
-版權所有 © 2020-2023 Wolken(zwolken@foxmail.com | zharry@web.de)
+版權所有 © 2020-2023 Wolken (zwolken@foxmail.com | zharry@web.de)
