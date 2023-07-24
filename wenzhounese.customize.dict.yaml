@@ -1,0 +1,42 @@
+# 文件名：wenzhounese.customize.dict.yaml
+# Date: 2023-07
+# Rime dictionary
+# Wenzhounese - 溫州話
+# 自定義字詞典
+# encoding: utf-8
+# 本作品採用姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)進行許可。
+# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
+
+---
+max_phrase_length: 7	
+min_phrase_weight: 100	
+name: wenzhounese_customize	
+sort: by_weight
+use_preset_vocabulary: true
+version: "1.0.0"
+...
+
+#語氣字
+喲	yo
+唷	yo
+啊	a
+呃	e
+嗷	ao
+哎	ai
+喔	wo
+
+#詞匯
+訾恁妝
+困一寣
+睏一寣
+靠造化
+鉛角子
+物事
+天光	100%
+日晝
+閑昏
+黃昏
+人客
+后生兒
+昨日	sso yi
+妝樣	juo yi

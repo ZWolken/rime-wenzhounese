@@ -1,0 +1,50 @@
+# 文件名：wenzhounese.specgram.dict.yaml
+# Date: 2023-07
+# Rime dictionary
+# Wenzhounese - 溫州話
+# 溫州話特殊語法
+# 内容來源：溫州話:增補本/沈克成,沈迦著.—寧波:寧波出版社,2013.3 (ISBN 978-7-5526-0708-6)
+# encoding: utf-8
+# 本作品採用姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)進行許可。
+# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
+
+---
+max_phrase_length: 7	
+min_phrase_weight: 100	
+name: wenzhounese_character	
+sort: by_weight
+use_preset_vocabulary: true
+version: "1.0.0"	
+...
+
+#P133
+#第七章 溫州話詞匯
+#第一節 溫州話代詞
+#一、人稱代詞
+#P134
+我倈
+你倈
+渠倈
+几倈
+我伉你
+#二、指示代詞
+#P135
+該個
+許個
+該日
+許日
+該日
+許日
+該倈
+許倈
+該厘兒
+許厘兒
+該下兒
+該下兒
+#P136
+許下兒
+#三、方位代詞
+該裏
+該柢
+該面
+該頭

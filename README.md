@@ -39,7 +39,7 @@
 > 【小狼毫】 `%APPDATA%\Rime`<br>
 > 【鼠鬚管】 `~/Library/Rime/`
 
-2.	將`wenzhounese.schema.yaml`、`wenzhounese.dict.yaml`以及`wenzhounese.custom.yaml`（選擇性）三個文件放入用戶資料夾内
+2.	將以`*.yaml`結尾的文件均複製至`用戶資料夾`内
 
 3.	在狀態欄上右鍵Rime圖標，點擊`輸入法設定`以打開啓設定界面，勾選中`溫州話輸入法`以開啓
 

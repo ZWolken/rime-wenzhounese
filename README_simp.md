@@ -39,7 +39,7 @@
 > 【小狼毫】 `%APPDATA%\Rime`<br>
 > 【鼠鬚管】 `~/Library/Rime/`
 
-2.	将`wenzhounese.schema.yaml`、`wenzhounese.dict.yaml`以及`wenzhounese.custom.yaml`（选择性）三个文件放入用户资料夹内
+2.	将以`*.yaml`结尾的文件均复制至`用戶資料夾`内
 
 3.	在状态栏上右键Rime图标，点击`輸入法設定`以打开启设定界面，勾选中`溫州話輸入法`以开启
 
@@ -79,7 +79,7 @@ Rime输入法引擎自带繁简转换功能，具体步骤如下：
 ```yaml
 22  - name: simplification
 23    #reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
-24    states: [ 汉字, 汉字 ]
+24    states: [ 漢字, 汉字 ]
 ```
 4.	删除第23行行首的`#`符号，修改成如下所示：
 ```yaml
