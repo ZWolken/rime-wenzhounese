@@ -79,7 +79,7 @@ Rime输入法引擎自带繁简转换功能，具体步骤如下：
 > 【中州韻】 `~/.config/ibus/rime/`<br>
 > 【小狼毫】 `%APPDATA%\Rime`<br>
 > 【鼠鬚管】 `~/Library/Rime/`
-2.	使用`记事本`或`Visual Studio Code`等軟件打开`wenzhounese.schema.yaml`文件以备用编辑
+2.	使用`记事本`或`Visual Studio Code`等软件打开`wenzhounese.schema.yaml`文件
 3.	跳转到第23行，具体代码应如下：
 ```yaml
 22  - name: simplification
@@ -99,6 +99,6 @@ reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁
 
 ## 许可证
 
-<p align="center"><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">简体中文：知识共享署名-禁止演绎 4.0 国际许可协议 (CC BY-NC-ND 4.0)</a>进行许可。</p>
+<p align="center"><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">知识共享署名-禁止演绎 4.0 国际许可协议 (CC BY-NC-ND 4.0)</a>进行许可。</p>
 
 版权所有 © 2020-2023 Wolken (zwolken@foxmail.com | zharry@web.de)
