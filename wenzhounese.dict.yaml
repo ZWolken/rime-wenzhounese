@@ -19,6 +19,6 @@ import_tables:  #引用字詞典
   - wenzhounese.specgram						#溫州話特殊語法詞匯
   - wenzhounese.pearapple123				#來自pearapple123/rime-iuciou
   - wenzhounese.customize						#自定義字詞匯
-  #- luna_pinyin.sogou #搜狗詞庫，僅保留詞匯，刪除原文件的拼音，大型詞庫，默認不開啓
+  #- wenzhounese.luna_pinyin.sogou #搜狗詞庫，僅保留詞匯，刪除原文件的拼音，大型詞庫，默認不開啓
 
 ...
