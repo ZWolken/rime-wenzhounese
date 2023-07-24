@@ -30,8 +30,8 @@ patch:
         #薄、盆、葡、傍
 
     #dd-->d
-    - derive/^dd(a|ai|ang|e|ei|eng|i|ie|ong)$/d$1/
-        #談、隊、疼、桃、弟、停、田、條、同
+    - derive/^dd(a|ai|ang|e|ei|eng|i|ie|ong|uo)$/d$1/
+        #談、隊、疼、桃、弟、停、田、條、同、宕
     #- derive/^dd(au|ee|eu|o|oe|ov)$/d$1/
         #投、袋、讀、踱、臀、涂
 

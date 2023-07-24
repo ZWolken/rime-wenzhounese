@@ -53,6 +53,7 @@
 13.	[臀] ddoe→dv
 14.	[同] ddong→dong
 15.	[涂] ddov→dv
+16. [宕] dduo→duo
 
 ####	gg→g
 1.	[解] gga→ga
