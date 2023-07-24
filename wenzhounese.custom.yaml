@@ -268,6 +268,7 @@ patch:
 
     #iv-->yu
     - derive/^iv$/yu/			#溫
+    - derive/^iv$/v/			#溫
 
     #以下為個人定制模糊音（疑似變音？），字典未列出下述發音
     #jie--->jue
