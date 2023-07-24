@@ -98,8 +98,8 @@ patch:
         #歪、偎、溫、奣
 
     #w-->v
-    - derive/^w(a|ai|ang|e|ei|u)$/v$1/
-        #飯、佛、問、浮、肥、爲
+    - derive/^w(a|ai|ang|e|ei|ie|u)$/v$1/
+        #飯、佛、問、浮、肥、橫、爲
     #- derive/^w(ov)$/v$1
         #霧
 

@@ -172,6 +172,7 @@
 3.	[問] wang→vang
 4.	[浮] we→ve
 5.	[肥] wei→vei
+6.	[橫] wie→vie
 6.	[爲] wu→vu
 7.	[霧] wov→v
 

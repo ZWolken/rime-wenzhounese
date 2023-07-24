@@ -573,6 +573,7 @@ version: "1.0.0"
 腕	ua
 皖	ua
 莞	ua
+玩	wa #added
 或	wa
 惑	wa
 獲	wa
@@ -931,6 +932,7 @@ version: "1.0.0"
 浼	mai
 内	nai
 挼	nai
+䏧	nai
 𦠸	nai
 #P226
 餒	nai
@@ -3081,7 +3083,6 @@ version: "1.0.0"
 授	yeu
 袖	yeu
 岫	yeu
-就	yeu
 僦	yeu
 鷲	yeu
 售	yeu
@@ -6399,7 +6400,6 @@ version: "1.0.0"
 吵	cuo
 剿	cuo
 炒	cuo
-吵	cuo
 #P260
 耖	cuo
 蕩	dduo
