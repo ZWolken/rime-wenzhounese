@@ -20,9 +20,11 @@
 3.	[拼字输入法](https://hanzi.unihan.com.cn/PinZi)
 4.	[两分查字](http://zisea.com/zslf.htm)
 5.	[中文简繁体转换](https://tool.lu/zhconvert/)
-6.	[異体字リスト](https://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/)
-7.	[Schema.yaml 詳解](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
-8.	[鼠须管配置使用](https://blog.isteed.cc/post/squirrel-customization-2022/)
+6.	[正则表达式测试](https://regexr-cn.com/)
+7.	[異体字リスト](https://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/)
+8.	[Schema.yaml 詳解](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
+9.	[鼠须管配置使用](https://blog.isteed.cc/post/squirrel-customization-2022/)
+
 ## 安装
 
 1.	根据系统安装对应的[Rime输入法引擎](https://rime.im/download/)版本
