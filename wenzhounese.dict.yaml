@@ -17,8 +17,8 @@ version: "1.0.0"
 import_tables:  #引用字詞典
   - wenzhounese.character_04				#基礎字典，2004版沈氏溫州話拼寫方案
   - wenzhounese.specgram						#溫州話特殊語法詞匯
+  #- wenzhounese.scolding #溫州話駡詈語 暫無錄入計劃
   - wenzhounese.pearapple123				#來自pearapple123/rime-iuciou
   - wenzhounese.customize						#自定義字詞匯
   #- wenzhounese.luna_pinyin.sogou #搜狗詞庫，僅保留詞匯，刪除原文件的拼音，大型詞庫，默認不開啓
-
 ...
