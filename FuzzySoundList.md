@@ -65,7 +65,7 @@
 7.	[渠] ggi→gi
 8.	[枷] ggo→gu
 9.	[餩] ggoe→gv
-10.	[⿰石官] ggong→gong	#該字無Unicode，遂未正式錄入
+10.	[⿰石官] ggong→gong	#該字無Unicode，使用`䃔`代替
 11.	[觳] ggu→gu
 12.	[嗝] ggv→gv
 
