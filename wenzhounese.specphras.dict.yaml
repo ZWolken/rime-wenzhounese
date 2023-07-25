@@ -1,0 +1,26 @@
+# 文件名：wenzhounese.specphras.dict.yaml
+# Date: 2023-07
+# Rime dictionary
+# Wenzhounese - 溫州話
+# 溫州話特徵詞
+# 内容來源：溫州話:增補本/沈克成,沈迦著.—寧波:寧波出版社,2013.3 (ISBN 978-7-5526-0708-6)
+# encoding: utf-8
+# 本作品採用姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)進行許可。
+# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
+
+---
+max_phrase_length: 7	
+min_phrase_weight: 100	
+name: wenzhounese_specphras	
+sort: by_weight
+use_preset_vocabulary: true
+version: "1.0.0"	
+...
+
+#P332
+#第十五章 溫州話特徵詞
+#第一節 單字詞
+#無錄入需要
+#P368
+#第二節 二字詞
+#一、名物稱謂
