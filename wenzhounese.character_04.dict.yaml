@@ -4124,6 +4124,7 @@ version: "1.0.0"
 蓼	lie
 垅	lie
 釕	lie
+䉭	lie	#added
 妙	mie
 廟	mie
 謬	mie
@@ -5544,7 +5545,8 @@ version: "1.0.0"
 凍	dong
 棟	dong
 腖	dong
-#(𮀩)⿰石官ggong
+#(𮀩)⿰石官ggong #疑似錯誤
+䃔	ggong	#added
 工	gong
 功	gong
 紅	gong
