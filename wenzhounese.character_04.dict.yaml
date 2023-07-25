@@ -70,6 +70,7 @@ version: "1.0.0"
 欛	ba
 瓣	ba
 湃	ba
+鋬	ba
 白	bba
 帛	bba
 鉑	bba
@@ -92,6 +93,7 @@ version: "1.0.0"
 冊	ca
 坼	ca
 鑔	ca
+嚓	ca	#added
 餐	ca
 攙	ca
 叉	ca
@@ -329,6 +331,7 @@ version: "1.0.0"
 斫	ja
 著	ja
 脚	ja
+腳	ja	#added
 爵	ja
 迦	ja
 著	jja
@@ -336,6 +339,11 @@ version: "1.0.0"
 若	jja
 噱	jja
 客	ka
+恰	ka
+掐	ka
+揢	ka
+喀	ka
+寬	ka
 鉛	ka
 揩	ka
 咖	ka
@@ -360,6 +368,13 @@ version: "1.0.0"
 蠟	la
 辣	la
 剌	la
+癩	la
+邋	la
+埒	la
+鑞	la
+爛	la
+濫	la
+賴	la
 拉	la
 攋	la
 纜	la
@@ -437,6 +452,7 @@ version: "1.0.0"
 岩	nga
 顔	nga
 崖	nga
+巖	nga	#added
 涯	nga
 癌	nga
 睚	nga
@@ -573,7 +589,7 @@ version: "1.0.0"
 腕	ua
 皖	ua
 莞	ua
-玩	wa #added
+玩	wa	#added
 或	wa
 惑	wa
 獲	wa
@@ -922,6 +938,7 @@ version: "1.0.0"
 枚	mai
 梅	mai
 煤	mai
+媒	mai
 霉	mai
 䱕	mai
 莓	mai
@@ -1023,6 +1040,7 @@ version: "1.0.0"
 痿	uai
 畏	uai
 㾯	uai
+䀁	uai	added
 佛	wai
 物	wai
 惑	wai
@@ -1202,6 +1220,7 @@ version: "1.0.0"
 氤	iang
 銦	iang
 絪	iang
+陰	iang
 隂	iang
 蔭	iang
 應	iang
@@ -1599,6 +1618,7 @@ version: "1.0.0"
 句	gau
 鞲	gau
 鎬	gau
+溝	gau	#added
 狗	gau
 苟	gau
 垢	gau
@@ -1631,6 +1651,7 @@ version: "1.0.0"
 糇	hhau
 瘊	hhau
 后	hhau
+後	hhau
 厚	hhau
 逅	hhau
 憂	iau
@@ -1808,6 +1829,7 @@ version: "1.0.0"
 抱	bbe
 褒	be
 寳	be
+寶	be
 保	be
 堡	be
 葆	be
@@ -1895,6 +1917,7 @@ version: "1.0.0"
 澇	le
 老	le
 佬	le
+䇭	le	#added
 帽	me
 冒	me
 茂	me
@@ -2281,6 +2304,8 @@ version: "1.0.0"
 罹	lei
 藜	lei
 黧	lei
+里	lei
+裡	lei
 裏	lei
 禮	lei
 李	lei
@@ -2538,18 +2563,20 @@ version: "1.0.0"
 植	zzei
 埴	zzei
 湜	zzei
+䊓	zzei	#added
 掷	zzei
 踯	zzei
 蛰	zzei
 蹢	zzei
 箸	zzei
-滞	zzei
+滯	zzei
 彘	zzei
 池	zzei
 墀	zzei
 坻	zzei
 舐	zzei
-苎	zzei
+苎	zzei	#簡體
+苧	zzei	#繁體
 豸	zzei
 #eng
 病	bbeng
@@ -2764,6 +2791,7 @@ version: "1.0.0"
 餳	sseng
 承	sseng
 情	sseng
+晴	sseng
 腈	sseng
 繩	sseng
 塍	sseng
@@ -2771,6 +2799,7 @@ version: "1.0.0"
 靜	sseng
 靖	sseng
 婧	sseng
+聽	teng
 聼	teng
 廳	teng
 汀	teng
@@ -2894,12 +2923,14 @@ version: "1.0.0"
 掬	jeu
 州	jeu
 洲	jeu
+喌	jeu	#added
 舟	jeu
 輈	jeu
 周	jeu
 啁	jeu
 赒	jeu
 啾	jeu
+揪	jeu	#added
 盩	jeu
 鬏	jeu
 酒	jeu
@@ -2983,7 +3014,8 @@ version: "1.0.0"
 魯	leu
 艪	leu
 氌	leu
-鑥	leu
+鑥	leu	#added
+嚕	leu
 裸	leu
 罶	leu
 蠃	leu
@@ -3250,6 +3282,7 @@ version: "1.0.0"
 醫	i
 懨	i
 烟	i
+煙	i
 胭	i
 崦	i
 淹	i
@@ -3283,6 +3316,7 @@ version: "1.0.0"
 靨	i
 饜	i
 魘	i
+黶	i	#added
 怏	i
 要	i
 宴	i
@@ -3600,6 +3634,7 @@ version: "1.0.0"
 輗	nyi
 霓	nyi
 鯢	nyi
+娘	nyi
 孃	nyi
 疑	nyi
 鯰	nyi
@@ -3716,6 +3751,7 @@ version: "1.0.0"
 槧	qi
 繟	qi
 鉄	ti
+鐵	ti
 帖	ti
 貼	ti
 萜	ti
@@ -3857,6 +3893,7 @@ version: "1.0.0"
 爺	yi
 羊	yi
 阳	yi
+陽	yi
 暘	yi
 楊	yi
 煬	yi
@@ -3923,6 +3960,7 @@ version: "1.0.0"
 潛	yi
 髯	yi
 燃	yi
+檐	yi
 簷	yi
 簃	yi
 彜	yi
@@ -3976,6 +4014,7 @@ version: "1.0.0"
 標	bie
 浜	bie
 髟	bie
+綳	bie	#added
 繃	bie
 猋	bie
 飆	bie
@@ -4371,6 +4410,7 @@ version: "1.0.0"
 需	sii
 嘶	sii
 譆	sii
+嘻	sii
 嬉	sii
 撕	sii
 澌	sii
@@ -4408,6 +4448,7 @@ version: "1.0.0"
 駟	sii
 歲	sii
 嵗	sii
+歳	sii
 戍	sii
 戲	sii
 餼	sii
@@ -4652,7 +4693,7 @@ version: "1.0.0"
 冀	zii
 緻	zii
 罽	zii
-#?繫
+繫	zii
 驥	zii
 極	zzii
 伎	zzii
@@ -4707,6 +4748,7 @@ version: "1.0.0"
 槌	zzii
 蓍	zzii
 蜍	zzii
+錘	zzii
 鎚	zzii
 旗	zzii
 綦	zzii
@@ -4994,6 +5036,7 @@ version: "1.0.0"
 囑	jo
 矚	jo
 殼	ko
+殻	ko
 恪	ko
 闊	ko
 廓	ko
@@ -5010,6 +5053,7 @@ version: "1.0.0"
 氯	lo
 洛	lo
 烙	lo
+硌	lo	#added
 給	lo
 駱	lo
 珞	lo
@@ -5469,6 +5513,7 @@ version: "1.0.0"
 噸	toe
 探	toe
 彖	toe
+暾	toe	#added
 匝	zoe
 咂	zoe
 拶	zoe
@@ -5476,6 +5521,7 @@ version: "1.0.0"
 鑽	zoe
 尊	zoe
 樽	zoe
+罇	zoe	#added
 簪	zoe
 撙	zoe
 纂	zoe
@@ -5951,6 +5997,7 @@ version: "1.0.0"
 露	lov
 廬	lov
 驢	lov
+爐	lov
 鑪	lov
 蘆	lov
 盧	lov
@@ -6322,6 +6369,7 @@ version: "1.0.0"
 逾	wu
 榆	wu
 瑜	wu
+胡	wu
 鬍	wu
 湖	wu
 葫	wu
@@ -6434,7 +6482,7 @@ version: "1.0.0"
 讜	duo
 攩	duo
 檔	duo
-攩	duo
+擋	duo
 曠	gguo
 彳	gguo
 獷	gguo
@@ -6566,6 +6614,7 @@ version: "1.0.0"
 俑	iuo
 勇	iuo
 湧	iuo
+涌	iuo
 蛹	iuo
 踴	iuo
 壅	iuo
@@ -6702,7 +6751,7 @@ version: "1.0.0"
 恐	quo
 揰	quo
 壙	quo
-臟	ssuo
+髒	ssuo
 藏	ssuo
 巢	ssuo
 喪	suo
@@ -6885,6 +6934,7 @@ version: "1.0.0"
 橛	jjv
 巨	jjv
 柜	jjv
+櫃	jjv
 傳	jjv
 具	jjv
 懼	jjv
@@ -6960,6 +7010,8 @@ version: "1.0.0"
 規	jv
 邽	jv
 駒	jv
+磚	jv
+磗	jv
 甎	jv
 閨	jv
 俱	jv
@@ -7101,6 +7153,7 @@ version: "1.0.0"
 笏	xv
 惚	xv
 説	xv
+說	xv
 雪	xv
 寣	xv
 𥇰	xv	#added
@@ -7164,6 +7217,7 @@ version: "1.0.0"
 疫	yv
 絕	yv
 悅	yv
+核	yv
 覈	yv
 秫	yv
 鉞	yv
