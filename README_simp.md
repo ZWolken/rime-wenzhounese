@@ -1,4 +1,4 @@
-<h1 align="center">吴语·温州话<a rel="繁体中文" href="https://github.com/ZWolken/rime-wenzhounese/blob/main/README.md"><br><font size="4">繁体中文</font></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a></h1>
+<h1 align="center">吴语·温州话<a rel="繁体中文" href="/README.md"><br><font size="4">繁体中文</font></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a></h1>
 
 ## 字典已完成收录，可正常输入单字<br>词典尚未完成最终收录，仍正在完善之中
 
@@ -42,7 +42,7 @@
 2.	将以`*.yaml`结尾的文件均复制至`用戶資料夾`内
 
 	-	`wenzhounese.custom.yaml`文件是针对原拼写方案的模糊音定制方案文件，使用后一定程度上可根据普通话拼音的逻辑进行输入
-	-	对于模糊音定制方案文件可见[模糊音方案说明](https://github.com/ZWolken/rime-wenzhounese/blob/main/FuzzySoundList.md)
+	-	对于模糊音定制方案文件可见[模糊音方案说明](/FuzzySoundList.md)
 	-	注意：模糊音定制方案文件导入使用后将升高重码率，如果要只使用原拼写方案进行输入的话不导入此文件即可
 	
 
