@@ -1,9 +1,13 @@
-#
+# 文件名：wenzhounese.character_13.dict.yaml
 # Date: 2023-07
 # Rime dictionary
 # Wenzhounese - 溫州話
+# 單字
+# 字典來源：温州话:增补本/沈克成,沈迦著.—宁波:宁波出版社,2013.3 (ISBN 978-7-5526-0708-6)
+# 有少量修改
 # encoding: utf-8
-# Wolken (zwolken@foxmail.com | zharry@web.de)
+# 本作品採用許可證[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)進行許可。
+# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 
 ---
 max_phrase_length: 7	
@@ -11,7 +15,7 @@ min_phrase_weight: 100
 name: wenzhounese	
 sort: by_weight
 use_preset_vocabulary: true
-version: "1.0.0"	
+version: "2.0.0"	
 ...
 
 

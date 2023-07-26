@@ -1,4 +1,8 @@
-<h1 align="center">吳語·溫州話<a rel="简体中文" href="/README_simp.md"><br><font size="4">简体中文</font></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" /></a></h1>
+<h1 align="center">吳語·溫州話<a rel="简体中文" href="/README_simp.md"><br><font size="4">简体中文</font></a><br>
+
+[![LICENSE](https://img.shields.io/badge/license-AGPL3.0-blue?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/blob/main/LICENSE)<br>
+[![GitHub Repo stars](https://img.shields.io/github/stars/ZWolken/rime-wenzhounese?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese)
+[![GitHub all releases](https://img.shields.io/github/downloads/ZWolken/rime-wenzhounese/total?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/releases)
 
 ## 字典已完成收錄，可正常輸入單字<br>詞典尚未完成最終收錄，仍正在完善之中
 
@@ -103,8 +107,23 @@ reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁
 
 ## 許可證
 
-<p align="center"><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="知識共享許可協議" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />本作品採用<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)</a>進行許可。</p>
+- [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)
 
->簡體中文：知识共享署名-禁止演绎 4.0 国际许可协议
+```
+Copyright (C) 2023 Wolken(zwolken@foxmail.com | zharry@web.de)
 
-版權所有 © 2020-2023 Wolken (zwolken@foxmail.com | zharry@web.de)
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
+
+版權所有 © 2023 Wolken (zwolken@foxmail.com | zharry@web.de)

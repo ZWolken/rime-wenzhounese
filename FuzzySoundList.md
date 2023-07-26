@@ -1,6 +1,6 @@
 # 溫州話發音模糊音方案
 **僅適配2004.11寧波出版社出版的《溫州話》内的沈氏溫州話拼寫方案**
->本作品採用姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)進行許可。<br>
+>本作品採用許可證[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)進行許可。<br>
 >版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 
 根據`wenzhounese.dict.yaml`文件編寫<br>
