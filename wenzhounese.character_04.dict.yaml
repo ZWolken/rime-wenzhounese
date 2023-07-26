@@ -276,6 +276,7 @@ version: "1.0.0"
 擐	gga
 解	gga
 瞎	ha
+謊	ha
 喝	ha
 赫	ha
 嚇	ha
@@ -330,11 +331,13 @@ version: "1.0.0"
 角	ja
 斫	ja
 著	ja
+着	ja
 脚	ja
 腳	ja	#added
 爵	ja
 迦	ja
 著	jja
+着	jja
 鐯	jja
 若	jja
 噱	jja
@@ -370,6 +373,7 @@ version: "1.0.0"
 剌	la
 癩	la
 邋	la
+𩧆	la	#added
 埒	la
 鑞	la
 爛	la
@@ -553,6 +557,7 @@ version: "1.0.0"
 塌	ta
 搨	ta
 遢	ta
+𩥑	ta	#added
 榻	ta
 蹋	ta
 瀨	ta
@@ -684,6 +689,7 @@ version: "1.0.0"
 擇	zza
 澤	zza
 著	zza
+着	zza
 渫	zza
 煠	zza
 翟	zza
@@ -926,6 +932,7 @@ version: "1.0.0"
 裸	lai
 瘰	lai
 耒	lai
+𦌵	lai	#added
 墨	mai
 默	mai
 物	mai
@@ -1458,6 +1465,7 @@ version: "1.0.0"
 藎	ssang
 荏	ssang
 吞	tang
+㖔	tang	#added
 騰	tang
 畽	tang
 氽	tang
@@ -1734,6 +1742,7 @@ version: "1.0.0"
 㶭	nyau
 鈕	nyau
 忸	nyau
+𥍳	nyau	#added
 丘	qau
 蚯	qau
 邱	qau
@@ -1858,6 +1867,7 @@ version: "1.0.0"
 糖	dde
 道	dde
 稻	dde
+㨄	dde	#added
 刀	de
 叨	de
 雕	de
@@ -1946,6 +1956,7 @@ version: "1.0.0"
 翺	nge
 㯱	pe
 剖	pe
+𩔈	pe	#added
 搔	se
 騷	se
 臊	se
@@ -2077,6 +2088,7 @@ version: "1.0.0"
 黛	tee
 達	tee
 苔	tee
+𤌙	tee	#added
 則	zee
 庂	zee
 側	zee
@@ -2776,7 +2788,8 @@ version: "1.0.0"
 姓	seng
 性	seng
 盛	sseng
-净	sseng
+凈	sseng
+淨	sseng
 乘	sseng
 嵊	sseng
 阱	sseng
@@ -3677,6 +3690,7 @@ version: "1.0.0"
 蹁	pi
 片	pi
 騙	pi
+𢴩	pi	#added
 切	qi
 沏	qi
 妾	qi
@@ -4042,6 +4056,7 @@ version: "1.0.0"
 鰷	ddie
 窕	ddie
 𢖈	ddie
+㨄	ddie	#added
 刁	die
 貂	die
 凋	die
@@ -4242,6 +4257,7 @@ version: "1.0.0"
 糴	tie
 謍	uie
 奣	uie
+𤁽	uie
 橫	wie
 撔	wie
 肖	xie
@@ -5759,6 +5775,7 @@ version: "1.0.0"
 艨	mong
 蠓	mong
 懵	mong
+𦿏	mong	#added
 懦	nong
 糯	nong
 農	nong
@@ -5773,6 +5790,7 @@ version: "1.0.0"
 滃	ong
 齆	ong
 𨞑	ong
+𦒥	ong	#added
 肨	pong
 捧	pong
 椪	pong
@@ -6345,6 +6363,7 @@ version: "1.0.0"
 竽	wu
 爲	wu
 為	wu
+不	wu
 無	wu
 韋	wu
 乎	wu
@@ -6679,6 +6698,7 @@ version: "1.0.0"
 稂	luo
 鋃	luo
 晾	luo
+㫰	luo
 朗	luo
 貌	muo
 望	muo
@@ -6843,6 +6863,7 @@ version: "1.0.0"
 #v
 橛	ggv
 嗝	ggv
+𣎴	ggv	#added
 #𫠡(⿱一个)ggv
 佮	gv
 袷	gv
@@ -6898,7 +6919,7 @@ version: "1.0.0"
 郁	iv
 鬱	iv
 安	iv
-媼	iv	#added 老媼
+媼	iv
 鞍	iv
 宛	iv
 剜	iv
