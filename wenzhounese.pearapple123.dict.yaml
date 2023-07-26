@@ -1,6 +1,7 @@
 # 文件名：wenzhounese.pearapple123.dict.yaml
 # 此詞匯來自pearapple123/rime-iuciou
 # 原項目地址：https://github.com/pearapple123/rime-iuciou
+# 存在部分修改
 # Date: 2021-02-10
 # Rime dictionary
 # Wenzhounese - 溫州話
@@ -233,8 +234,8 @@ version: "1.9.1"
 接力壅
 耙豬沙
 踏馬水
-早槄熟
-晚槄熟
+早稻熟
+晚稻熟
 爛腳瘟
 曬殼坦
 仰天坑
@@ -579,9 +580,9 @@ version: "1.9.1"
 踏水
 打坎
 攏殼
-摜槄
-割槄
-打槄
+摜稻
+割稻
+打稻
 臿米
 交生
 正租

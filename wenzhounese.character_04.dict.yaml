@@ -57,6 +57,7 @@ version: "1.0.0"
 般	ba
 反	ba
 板	ba
+闆	ba
 擺	ba
 版	ba
 猈	ba
@@ -385,6 +386,7 @@ version: "1.0.0"
 癩	la
 落	la
 蘭	la
+灡	la	#added
 欄	la
 攔	la
 藍	la
@@ -657,6 +659,7 @@ version: "1.0.0"
 瀹	ya
 扎	za
 札	za
+紮	za
 匝	za
 咋	za
 窄	za
@@ -680,7 +683,7 @@ version: "1.0.0"
 劗	za
 䎒	za
 赞	za
-债	za
+債	za
 炸	za
 濽	za
 蘸	za
@@ -1459,6 +1462,7 @@ version: "1.0.0"
 曾	ssang
 螓	ssang
 盡	ssang
+儘	ssang
 甚	ssang
 腎	ssang
 葚	ssang
@@ -1989,6 +1993,7 @@ version: "1.0.0"
 蚤	ze
 澡	ze
 藻	ze
+灶	ze	#簡體字
 竈	ze
 躁	ze
 譟	ze
@@ -2508,6 +2513,7 @@ version: "1.0.0"
 剃	tei
 嚏	tei
 屜	tei
+䑯	tei	#added
 未	wei
 味	wei
 肥	wei
@@ -3398,6 +3404,7 @@ version: "1.0.0"
 樟	ji
 璋	ji
 蟑	ji
+蟅	ji
 雀	ji
 煎	ji
 詹	ji
@@ -3568,6 +3575,7 @@ version: "1.0.0"
 篾	mi
 蠛	mi
 面	mi
+麵	mi
 麺	mi
 #P244
 眠	mi
@@ -3781,6 +3789,7 @@ version: "1.0.0"
 歇	xi
 脇	xi
 携	xi
+攜	xi
 蝎	xi
 屑	xi
 楔	xi
@@ -3839,6 +3848,7 @@ version: "1.0.0"
 憲	xi
 扇	xi
 煽	xi
+搧	xi
 獻	xi
 腺	xi
 霰	xi
@@ -4007,6 +4017,7 @@ version: "1.0.0"
 掽	bbie
 朴	bbie
 彭	bbie
+澎	bbie	#added
 膨	bbie
 蟛	bbie
 棚	bbie
@@ -4046,6 +4057,7 @@ version: "1.0.0"
 鐺	cie
 瞠	cie
 牚	cie
+掉	ddie
 條	ddie
 調	ddie
 迢	ddie
@@ -4149,6 +4161,12 @@ version: "1.0.0"
 摼	kie
 鏗	kie
 硜	kie
+略	lie
+掠	lie
+獵	lie
+擽	lie
+躐	lie
+䛚	lie
 料	lie
 廖	lie
 瞭	lie
@@ -4579,6 +4597,7 @@ version: "1.0.0"
 孜	zii
 磯	zii
 鷄	zii
+雞	zii
 侏	zii
 奇	zii
 沮	zii
@@ -4588,6 +4607,7 @@ version: "1.0.0"
 誅	zii
 隹	zii
 兹	zii
+茲	zii
 咨	zii
 洙	zii
 祗	zii
@@ -5051,6 +5071,8 @@ version: "1.0.0"
 瘃	jo
 囑	jo
 矚	jo
+可	ko	#added
+坷	ko	#added
 殼	ko
 殻	ko
 恪	ko
@@ -5070,7 +5092,7 @@ version: "1.0.0"
 洛	lo
 烙	lo
 硌	lo	#added
-給	lo
+絡	lo
 駱	lo
 珞	lo
 落	lo
@@ -5084,6 +5106,8 @@ version: "1.0.0"
 牧	mo
 陌	mo
 莫	mo
+襪	mo
+韈	mo
 韤	mo
 寞	mo
 摸	mo
@@ -5461,6 +5485,9 @@ version: "1.0.0"
 滿	moe
 蟎	moe
 物	moe
+襪	moe	#added
+韈	moe	#added
+韤	moe	#added
 兀	ngoe
 玩	ngoe
 頷	ngoe
@@ -5727,6 +5754,7 @@ version: "1.0.0"
 迥	jong
 炯	jong
 准	jong
+準	jong
 凖	jong
 熲	jong
 憬	jong
@@ -5797,6 +5825,7 @@ version: "1.0.0"
 碰	pong
 從	qong
 充	qong
+冲	qong
 衝	qong
 忡	qong
 芎	qong
@@ -6505,6 +6534,7 @@ version: "1.0.0"
 曠	gguo
 彳	gguo
 獷	gguo
+㽘	gguo	#added
 #⿲乛丨𰛅gguo
 岡	guo
 剛	guo
@@ -6655,7 +6685,7 @@ version: "1.0.0"
 龔	juo
 椿	juo
 鍾	juo
-种	juo
+種	juo
 腫	juo
 拱	juo
 珙	juo
@@ -7103,7 +7133,7 @@ version: "1.0.0"
 寓	nyv
 御	nyv
 遇	nyv
-愿	nyv
+願	nyv
 蕊	nyv
 禦	nyv
 元	nyv
@@ -7230,6 +7260,7 @@ version: "1.0.0"
 渲	xv
 楦	xv
 煦	xv
+昫	xv	#added
 術	yv
 穴	yv
 聿	yv
