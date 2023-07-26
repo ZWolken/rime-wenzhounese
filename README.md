@@ -22,9 +22,10 @@
 4.	[两分查字](http://zisea.com/zslf.htm)
 5.	[中文简繁体转换](https://tool.lu/zhconvert/)
 6.	[正则表达式测试](https://regexr-cn.com/)
-7.	[異体字リスト](https://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/)
-8.	[Schema.yaml 詳解](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
-9.	[鼠须管配置使用](https://blog.isteed.cc/post/squirrel-customization-2022/)
+7.	[汉字字符集编码查询](https://www.qqxiuzi.cn/bianma/zifuji.php)
+8.	[異体字リスト](https://www.tobunken.go.jp/archives/%E7%95%B0%E4%BD%93%E5%AD%97%E3%83%AA%E3%82%B9%E3%83%88/)
+9.	[Schema.yaml 詳解](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
+10.	[鼠须管配置使用](https://blog.isteed.cc/post/squirrel-customization-2022/)
 
 ## 安裝
 
