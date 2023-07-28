@@ -156,5 +156,5 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 
-本项目已获得沈克成先生的授权，可使用沈克成先生所出版书籍的内容。<br>
+本项目已获得沈克成先生的授权，可使用沈克成先生出版书籍的全部内容。<br>
 版权所有 © 2023 Wolken (zwolken@foxmail.com | zharry@web.de)
