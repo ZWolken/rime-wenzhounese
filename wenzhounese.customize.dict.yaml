@@ -5,7 +5,7 @@
 # 自定義字詞典
 # encoding: utf-8
 # 本作品採用許可證[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)進行許可。
-# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
+# 版權所有 © 2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 
 ---
 max_phrase_length: 7	
@@ -31,7 +31,7 @@ version: "1.0.0"
 訾恁妝	zii na juo
 困一寣
 睏一寣
-靠造化 
+靠造化
 鉛角子
 銅鈿
 物事

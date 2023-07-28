@@ -2,12 +2,12 @@
 # Date: 2023-07
 # Rime dictionary
 # Wenzhounese - 溫州話
-# 單字
+# 溫州話同音字匯
 # 字典來源：溫州話/沈克成,沈迦著.—寧波:寧波出版社,2004.11 (ISBN 7-80602-811-0)
 # 有少量修改
 # encoding: utf-8
 # 本作品採用許可證[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)進行許可。
-# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
+# 版權所有 © 2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 
 ---
 max_phrase_length: 7	
@@ -290,7 +290,7 @@ version: "1.0.0"
 稴	ha
 獬	ha
 撼	ha
-匄	ha	100%
+匄	ha	70%
 狹	hha
 匣	hha
 洽	hha
@@ -785,7 +785,7 @@ version: "1.0.0"
 堆	dai
 呆	dai
 𠡒	dai
-對	dai	100%
+對	dai	70%
 碓	dai
 兌	dai
 奪	ddai
@@ -1350,7 +1350,7 @@ version: "1.0.0"
 棱	lang
 薐	lang
 綸	lang
-卵	lang	100%
+卵	lang	70%
 悶	mang
 燜	mang
 問	mang
@@ -1734,7 +1734,7 @@ version: "1.0.0"
 僂	lau
 褸	lau
 嶁	lau
-冇	nau	100%
+冇	nau	70%
 牛	ngau
 偶	ngau
 藕	ngau
@@ -1889,7 +1889,7 @@ version: "1.0.0"
 奧	e
 懊	e
 澳	e
-孬	fe	100%
+孬	fe	70%
 否	fe
 糕	ge
 高	ge
@@ -2893,7 +2893,7 @@ version: "1.0.0"
 豆	ddeu
 痘	ddeu
 荳	ddeu
-大	ddeu	100%
+大	ddeu	70%
 馱	ddeu
 骰	ddeu
 頭	ddeu
@@ -2915,7 +2915,7 @@ version: "1.0.0"
 䅜	ddeu
 督	deu
 篤	deu
-多	deu	100%
+多	deu	70%
 哆	deu
 丟	deu
 銩	deu
@@ -3276,7 +3276,7 @@ version: "1.0.0"
 店	di
 惦	di
 癜	di
-渠	ggi	100%
+渠	ggi	70%
 該	gi
 几	gi
 一	i
@@ -4081,7 +4081,7 @@ version: "1.0.0"
 吊	die
 銱	die
 釣	die
-渠	ggie	100%
+渠	ggie	70%
 更	gie
 粳	gie
 羹	gie

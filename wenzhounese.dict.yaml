@@ -4,7 +4,7 @@
 # Wenzhounese - 溫州話
 # encoding: utf-8
 # 本作品採用許可證[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)進行許可。
-# 版權所有 © 2020-2023 Wolken <zwolken@foxmail.com | zharry@web.de>
+# 版權所有 © 2023 Wolken <zwolken@foxmail.com | zharry@web.de>
 
 ---
 max_phrase_length: 7	
@@ -15,12 +15,13 @@ use_preset_vocabulary: true
 version: "1.0.0"	
 
 import_tables:  #引用字詞典
-  - wenzhounese.character_04				#基礎字典，2004版沈氏溫州話拼寫方案
-  - wenzhounese.specgram						#溫州話特殊語法詞匯
-  - wenzhounese.specphras						#溫州話特徵詞
+  - wenzhounese.character_04			#基礎字典，2004版沈氏溫州話拼寫方案
+  - wenzhounese.specgram					#溫州話特殊語法詞匯
+  - wenzhounese.specphras					#溫州話特徵詞
+  - wenzhounese.phrases						#溫州話分類詞匯
   #- wenzhounese.scolding #溫州話駡詈語 暫無錄入計劃
-  - wenzhounese.pearapple123				#來自pearapple123/rime-iuciou
-  - wenzhounese.customize						#自定義字詞匯
+  - wenzhounese.pearapple123			#來自pearapple123/rime-iuciou
+  - wenzhounese.customize					#自定義字詞匯
   #- wenzhounese.luna_pinyin.sogou #搜狗詞庫，僅保留詞匯，刪除原文件的拼音，大型詞庫，默認不開啓
 
 ...
