@@ -4,9 +4,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ZWolken/rime-wenzhounese?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese)
 [![GitHub all releases](https://img.shields.io/github/downloads/ZWolken/rime-wenzhounese/total?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/releases)
 
-## 字典已完成收錄，可正常輸入單字<br>詞典尚未完成最終收錄，仍正在完善之中
-
-[Rime](https://rime.im) 吳語-溫州話輸入方案
+# [Rime](https://rime.im) 吳語-溫州話輸入方案
 
 字典根據沈克成-沈迦的拼音方案進行錄入。
 
@@ -33,34 +31,42 @@
 
 ## 安裝
 
-1.	根據系統安裝對應的[Rime輸入法引擎](https://rime.im/download/)版本
+1.	根據系統下載安裝對應的[Rime輸入法引擎](https://rime.im/download/)版本
 
 -	Android系統安裝使用可參閲[osfans/trime](https://github.com/osfans/trime)以及[SivanLaai/rime-pure](https://github.com/SivanLaai/rime-pure)
 -	iOS系統安裝使用可參閲[Hamster](https://github.com/imfuxiao/Hamster)
 
-2.	將系統輸入切換至Rime輸入法
+2.	從[Release（發行版發佈頁）](https://github.com/ZWolken/rime-wenzhounese/releases/latest)下載最新版本的數據文件。
+-	壓縮包文件或者全部的`*.yaml`結尾的文件選一者全部下載即可。
+-	壓縮包下載完成后請解壓到可自行可操作的文件夾備用。
+-	<details>
+	<summary>不會解壓縮文件？</summary>
+	請查閱<a href="https://[www.runoob.com/](https://blog.csdn.net/weixin_44168217/article/details/96311980)">壓縮包解壓教程</a>。
+	</details>
 
-3.	在狀態欄上右鍵Rime圖標，點擊`用戶文件夾`以開啓
-> 亦可手動打開Rime用戶文件夾，路徑如下：
->
-> 【中州韻】 `~/.config/ibus/rime/`<br>
-> 【小狼毫】 `%APPDATA%\Rime`<br>
-> 【鼠鬚管】 `~/Library/Rime/`
+3.	將系統輸入切換至Rime輸入法
 
-2.	將以`*.yaml`結尾的文件均複製至`用戶資料夾`内
+4.	在狀態欄上右鍵Rime圖標，點擊`用戶文件夾`以開啓
+-	<details>
+	<summary>亦可手動打開Rime用戶文件夾，路徑如下：</summary>
+	【中州韻】 `~/.config/ibus/rime/`<br>
+	【小狼毫】 `%APPDATA%\Rime`<br>
+	【鼠鬚管】 `~/Library/Rime/`
+	</details>
+
+5.	將以`*.yaml`结尾的文件均複製至`用戶資料夾`内
 
 	-	`wenzhounese.custom.yaml`文件是針對原拼寫方案的模糊音定制方案文件，使用後一定程度上可根據普通話拼音的邏輯進行輸入
 	-	對於模糊音定制方案文件可見[模糊音方案説明](/FuzzySoundList.md)
 	-	注意：模糊音定制方案文件導入使用后將升高重碼率，如果要只使用原拼寫方案進行輸入的話不導入此文件即可
-	
 
-3.	在狀態欄上右鍵Rime圖標，點擊`輸入法設定`以打開啓設定界面，勾選中`溫州話輸入法`以開啓
+6.	在狀態欄上右鍵Rime圖標，點擊`輸入法設定`以打開啓設定界面，勾選中`溫州話輸入法`以開啓
 
-4.	在狀態欄上右鍵Rime圖標，點擊`重新部署`
+7.	在狀態欄上右鍵Rime圖標，點擊`重新部署`
 
-5.	按下 `Control+｀` 或 `F4` （Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
+8.	按下<kbd>Ctrl</kbd>+<kbd>｀</kbd> 或 <kbd>F4</kbd>（Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
 
-6.	開始輸入
+9.	開始輸入
 
 ## 簡繁體字形轉換
 
@@ -72,9 +78,13 @@
 
 Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
 1.	切換至Rime輸入法
-2.	按下 `Control+｀` 或 `F4` （Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
-3.	再次按下 `Control+｀` 或 `F4`，重新喚出方案選單
+
+2.	按下<kbd>Ctrl</kbd>+<kbd>｀</kbd> 或 <kbd>F4</kbd>（Rime默認快捷鍵），喚出方案選單，選擇`溫州話輸入法`
+
+3.	再次按下<kbd>Ctrl</kbd>+<kbd>｀</kbd> 或 <kbd>F4</kbd>，重新喚出方案選單
+
 4.	再次選擇`溫州話輸入法`，此時會進入下一級菜單
+
 5.	選擇`3. 漢字 → 汉字`，此時該選項會變爲`3. 汉字 → 漢字`，即可開啓簡體字形輸出
 > 若需切換回繁體字形，重複上述步驟改回`3. 漢字 → 汉字`的狀態即可<br>
 > 注意：此簡體字形輸出更改行爲為臨時更改，在切換輸入法后會重新回到繁體字形輸出模式。
@@ -82,30 +92,50 @@ Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
 ### 如何將簡體字形輸出設置爲默認
 
 1.	在狀態欄上右鍵Rime圖標點擊`用戶文件夾`以開啓
-> 亦可手動打開Rime用戶文件夾，路徑如下：
->
-> 【中州韻】 `~/.config/ibus/rime/`<br>
-> 【小狼毫】 `%APPDATA%\Rime`<br>
-> 【鼠鬚管】 `~/Library/Rime/`
+-	<details>
+	<summary>亦可手動打開Rime用戶文件夾，路徑如下：</summary>
+	【中州韻】 `~/.config/ibus/rime/`<br>
+	【小狼毫】 `%APPDATA%\Rime`<br>
+	【鼠鬚管】 `~/Library/Rime/`
+	</details>
+
 2.	使用`記事本`或`Visual Studio Code`等軟體打開`wenzhounese.schema.yaml`文件以備用編輯
+
 3.	跳轉到第23行，具體代碼應如下：
 ```yaml
 22  - name: simplification
 23    #reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
 24    states: [ 漢字, 汉字 ]
 ```
+
 4.	刪除第23行行首的`#`符號，修改成如下所示：
 ```yaml
 reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
 ```
+
 5.	保存文件更改
+
 6.	在狀態欄上右鍵Rime圖標，點擊`重新部署`
+
 7.	喚出方案選單，再次選擇`溫州話輸入法`
+
 8.	此時已將簡體字形輸出設置爲默認狀態
 > 若需切換回默認繁體字形輸出，將即可`wenzhounese.schema.yaml`的第23行行首的`#`符號添加回即可。
 
+## 任務清單 To-Do List
 
-## 許可證
+- [x] 基礎字匯錄入（2004年版本）
+- [ ] 基礎字匯更新（拼寫方案更新至2013年版本）
+- [ ] 拓展字匯錄入（更新至《温州话字林》的2w+字头）
+- [x] 基礎詞匯錄入（2013年版本）
+- [ ] 拓展詞匯錄入（更新至《温州话辞典》的全部詞匯）
+- [x] 模糊音規則編寫（基於2004年版本）
+- [ ] 模糊音規則更新（基於2013年版本）
+- [ ] 輸入方案打包成輸入法安裝包
+
+**錄入量巨大**，**目前完成時間未知**，若有想幫忙者可通過[zwolken@foxmail.com](mailto:zwolken@foxmail.com)郵箱地址找到我進行後續聯係。感激不盡！
+
+## 許可 & 許可證
 
 - [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)
 
@@ -126,5 +156,5 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 
-本項目對沈克成先生出版書籍内容的使用已獲得沈克成先生的授權。<br>
+本項目已獲得沈克成先生的授權，可使用沈克成先生出版書籍的全部内容。<br>
 版權所有 © 2023 Wolken (zwolken@foxmail.com | zharry@web.de)
