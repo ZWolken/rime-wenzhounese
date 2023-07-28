@@ -150,7 +150,7 @@ version: "1.0.0"
 涾	dda
 踏	dda
 蹈	dda
-鳣	dda
+鱣	dda
 大	dda
 但	dda
 坦	dda
@@ -401,6 +401,7 @@ version: "1.0.0"
 𢅡	la
 啦	la
 喇	la
+鯻	la	#added
 賴	la
 覽	la
 攬	la
@@ -470,6 +471,7 @@ version: "1.0.0"
 搦	nya
 溺	nya
 蒻	nya
+箬	nya
 鑷	nya
 虐	nya
 若	nya
@@ -1264,6 +1266,7 @@ version: "1.0.0"
 印	iang
 應	iang
 蠮	iang
+螾	iang	#added
 窨	iang
 茚	iang
 巾	jang
@@ -1612,6 +1615,7 @@ version: "1.0.0"
 兜	dau
 篼	dau
 𩔡	dau
+鬥	dau
 斗	dau
 抖	dau
 陡	dau
@@ -1734,6 +1738,7 @@ version: "1.0.0"
 僂	lau
 褸	lau
 嶁	lau
+摟	lau	#added
 冇	nau	70%
 牛	ngau
 偶	ngau
@@ -2471,7 +2476,7 @@ version: "1.0.0"
 席	ssei
 寂	ssei
 碩	ssei
-逪	ssei
+趞	ssei
 藉	ssei
 籍	ssei
 鼫	ssei
@@ -2700,6 +2705,7 @@ version: "1.0.0"
 繗	leng
 膦	leng
 伶	leng
+鄰	leng
 隣	leng
 囹	leng
 林	leng
@@ -2717,6 +2723,7 @@ version: "1.0.0"
 輪	leng
 臨	leng
 凌	leng
+菱	leng
 蔆	leng
 稜	leng
 靈	leng
@@ -3389,7 +3396,8 @@ version: "1.0.0"
 氊	ji
 覘	ji
 肩	ji
-薑	ji
+薑	ji	80%
+姜	ji	20%
 將	ji
 兼	ji
 搛	ji
@@ -3675,6 +3683,7 @@ version: "1.0.0"
 誼	nyi
 旎	nyi
 攆	nyi
+瓤	nyi	#added
 匹	pi
 匕	pi
 疋	pi
@@ -4355,7 +4364,7 @@ version: "1.0.0"
 笞	cii
 攲	cii
 趨	cii
-谿	cii
+溪	cii
 癡	cii
 颸	cii
 摴	cii
@@ -4840,6 +4849,8 @@ version: "1.0.0"
 娛	ng
 峨	ng
 梧	ng
+鵝	ng
+䳘	ng
 鵞	ng
 蛾	ng
 蜈	ng
@@ -5188,6 +5199,7 @@ version: "1.0.0"
 娃	o
 窪	o
 蛙	o
+鴉	o
 鵶	o
 媧	o
 椏	o
@@ -5468,6 +5480,7 @@ version: "1.0.0"
 抹	moe
 沫	moe
 秣	moe
+没	moe
 沒	moe
 歿	moe
 面	moe
@@ -5922,7 +5935,7 @@ version: "1.0.0"
 訓	yong
 巡	yong
 旬	yong
-佣	yong
+傭	yong
 沄	yong
 紜	yong
 耘	yong
@@ -6083,6 +6096,7 @@ version: "1.0.0"
 蜈	ngov
 圃	pov
 浦	pov
+鋪	pov
 舖	pov
 破	pov
 蘇	sov
@@ -6181,6 +6195,7 @@ version: "1.0.0"
 火	fu
 父	fu
 夥	fu
+伙	fu
 撫	fu
 甫	fu
 拊	fu
@@ -6302,7 +6317,7 @@ version: "1.0.0"
 幕	mu
 膜	mu
 謨	mu
-糢	mu
+模	mu
 摩	mu
 某	mu
 母	mu
@@ -6421,6 +6436,8 @@ version: "1.0.0"
 胡	wu
 鬍	wu
 湖	wu
+鰗	wu	#added
+蝴	wu	#added
 葫	wu
 糊	wu
 壺	wu
@@ -6502,6 +6519,7 @@ version: "1.0.0"
 #P260
 耖	cuo
 蕩	dduo
+盪	dduo
 菪	dduo
 碭	dduo
 曭	dduo
@@ -6805,6 +6823,7 @@ version: "1.0.0"
 髒	ssuo
 藏	ssuo
 巢	ssuo
+䖳	ssuo
 喪	suo
 桑	suo
 捎	suo
@@ -7320,3 +7339,4 @@ version: "1.0.0"
 旱	yv
 悍	yv
 緩	yv
+媛	yv	#added
