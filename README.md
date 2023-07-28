@@ -19,7 +19,7 @@
 
 參考資料：
 1.	[漢典](https://www.zdic.net/)
-2.	[小學堂](https://xiaoxue.iis.sinica.edu.tw/ccdb)
+2.	[小學堂|漢字古今字資料庫](https://xiaoxue.iis.sinica.edu.tw/ccdb)
 3.	[拼字输入法](https://hanzi.unihan.com.cn/PinZi)
 4.	[两分查字](http://zisea.com/zslf.htm)
 5.	[中文简繁体转换](https://tool.lu/zhconvert/)
@@ -156,5 +156,5 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 
-本項目已獲得沈克成先生的授權，可使用沈克成先生出版書籍的全部内容。<br>
+本項目已獲得沈克成先生的授權，可使用沈克成先生所出版書籍的内容。<br>
 版權所有 © 2023 Wolken (zwolken@foxmail.com | zharry@web.de)
