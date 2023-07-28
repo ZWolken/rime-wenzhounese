@@ -49,9 +49,9 @@
 4.	在状态栏上右键Rime图标，点击`用戶文件夾`以开启
 -	<details>
 	<summary>亦可手动打开Rime用户文件夹，路径如下：</summary>
-	【中州韻】 `~/.config/ibus/rime/`<br>
-	【小狼毫】 `%APPDATA%\Rime`<br>
-	【鼠鬚管】 `~/Library/Rime/`
+	【中州韻】<code>~/.config/ibus/rime/</code><br>
+	【小狼毫】<code>%APPDATA%\Rime</code><br>
+	【鼠鬚管】<code>~/Library/Rime/</code>
 	</details>
 
 5.	将以`*.yaml`结尾的文件均复制至`用戶資料夾`内
@@ -94,9 +94,9 @@ Rime输入法引擎自带繁简转换功能，具体步骤如下：
 1.	在状态栏上右键Rime图标点击`用戶文件夾`以开启
 -	<details>
 	<summary>亦可手动打开Rime用户文件夹，路径如下：</summary>
-	【中州韻】 `~/.config/ibus/rime/`<br>
-	【小狼毫】 `%APPDATA%\Rime`<br>
-	【鼠鬚管】 `~/Library/Rime/`
+	【中州韻】<code>~/.config/ibus/rime/</code><br>
+	【小狼毫】<code>%APPDATA%\Rime</code><br>
+	【鼠鬚管】<code>~/Library/Rime/</code>
 	</details>
 
 2.	使用`记事本`或`Visual Studio Code`等软件打开`wenzhounese.schema.yaml`文件
