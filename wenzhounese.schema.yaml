@@ -7,7 +7,7 @@
 
 schema:
   schema_id: wenzhounese
-  name: 溫州話輸入法
+  name: 溫州話
   version: "1.0.0"
   icon: "icon/wen.ico"
   author:
@@ -15,13 +15,17 @@ schema:
     - Email <zwolken@foxmail.com | zharry@web.de>
   description:
     基於Rime的采用沈克成先生-沈迦先生之拼音方案的溫州話輸入方案規則
+  dependencies:
+    - luna_pinyin
+    - pinyin_simp
 
 switches:
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
   - name: simplification
-    #reset: 1   # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
+    #reset: 1
+      # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
     states: [ 漢字, 汉字 ]
   - name: full_shape
     states: [ 半角, 全角 ]
@@ -47,6 +51,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
+    - reverse_lookup_translator
   filters:
     - simplifier
     - uniquifier
@@ -60,6 +65,19 @@ translator:
   dictionary: wenzhounese
   spelling_hints: 5
 
+reverse_lookup:
+  dictionary: luna_pinyin
+  #dictionary: pinyin_simp
+  #若需要繁體字形拼音反查：刪除上方luna_pinyin行前#字符，並用#字符注釋pinyin_simp行
+  #若需要繁體字形拼音反查：刪除上方pinyin_simp行前#字符，並用#字符注釋luna_pinyin行
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音反查〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
 punctuator:
   import_preset: default
 
@@ -68,3 +86,5 @@ key_binder:
 
 recognizer:
   import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
