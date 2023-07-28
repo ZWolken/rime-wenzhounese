@@ -9,6 +9,7 @@ schema:
   schema_id: wenzhounese
   name: 溫州話輸入法
   version: "1.0.0"
+  icon: "icon/wen.ico"
   author:
     - Wolken
     - Email <zwolken@foxmail.com | zharry@web.de>
