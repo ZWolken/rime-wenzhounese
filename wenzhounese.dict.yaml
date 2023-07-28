@@ -25,3 +25,12 @@ import_tables:  #引用字詞典
   #- wenzhounese.luna_pinyin.sogou #搜狗詞庫，僅保留詞匯，刪除原文件的拼音，大型詞庫
 
 ...
+
+Wolken	author
+zwolken@foxmail.com	mail
+https://github.com/ZWolken/rime-wenzhounese	addr
+https://gitee.com/wolken/rime-wenzhounese	cnaddr
+https://gitee.com/wolken/rime-wenzhounese	addrcn
+https://github.com/ZWolken/rime-wenzhounese	url
+https://gitee.com/wolken/rime-wenzhounese	cnurl
+https://gitee.com/wolken/rime-wenzhounese	urlcn
