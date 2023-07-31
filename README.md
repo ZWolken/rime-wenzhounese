@@ -43,8 +43,9 @@
 -	iOS系統安裝使用可參閲[Hamster](https://github.com/imfuxiao/Hamster)
 
 2.	從[Release（發行版發佈頁）](https://github.com/ZWolken/rime-wenzhounese/releases/latest)下載最新版本的數據文件。
--	壓縮包文件或者全部的`*.yaml`結尾的文件選一者全部下載即可。
--	壓縮包下載完成后請解壓到可自行可操作的文件夾備用。
+-	未曾使用過小狼毫輸入法的Windows用戶可直接下載`*.exe`格式結尾的安裝包進行安裝使用。
+-	壓縮包文件選一者全部下載即可。
+-	壓縮包下載完成后請解壓到可自行可操作的文件夾備用，其中的包含的11個yaml文件以及icon文件夾及文件夾内文件為需要使用的。
 -	<details>
 	<summary>不會解壓縮文件？</summary>
 	請查閱<a href="https://[www.runoob.com/](https://blog.csdn.net/weixin_44168217/article/details/96311980)">壓縮包解壓教程</a>。
@@ -190,7 +191,7 @@ Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
 - [ ] 拓展詞匯錄入（更新至《温州话辞典》的全部詞匯）
 - [x] 模糊音規則編寫（基於2004年版本）
 - [ ] 模糊音規則更新（基於2013年版本）
-- [x] 輸入方案打包成輸入法安裝包
+- [x] 輸入方案打包成輸入法安裝包（Windows端）
 
 **錄入量巨大**，**目前完成時間未知**，若有想幫忙者可通過[zwolken@foxmail.com](mailto:zwolken@foxmail.com)郵箱地址找到我進行後續聯係。感激不盡！
 
