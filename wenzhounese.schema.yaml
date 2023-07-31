@@ -24,7 +24,7 @@ switches:
     reset: 0
     states: [ 中文, 西文 ]
   - name: simplification
-    #reset: 1
+    reset: 0
       # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
     states: [ 漢字, 汉字 ]
   - name: full_shape
