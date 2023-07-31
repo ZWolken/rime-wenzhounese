@@ -24,10 +24,10 @@ patch:
     #將在後文進行單獨配備轉換，爲避免衝突建議保持該行狀態不變（關閉）
 
     #bb-->b
-    - derive/^bb(a|ai|ang|e|ei|eng|i|ie|ong|u)$/b$1/
-        #排、陪、笨、抱、皮、病、便、嫖、蓬、部
-    #- derive/^bb(o|oe|ov|uo)$/b$1/
-        #薄、盆、葡、傍
+    - derive/^bb(a|ai|ang|e|ei|eng|i|ie|ong|u|uo)$/b$1/
+        #排、陪、笨、抱、皮、病、便、嫖、蓬、部、傍
+    #- derive/^bb(o|oe|ov)$/b$1/
+        #薄、盆、葡
 
     #dd-->d
     - derive/^dd(a|ai|ang|e|ei|eng|i|ie|ong|uo)$/d$1/

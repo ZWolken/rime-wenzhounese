@@ -35,7 +35,7 @@
 11.	[蓬] bbong→bong
 12.	[葡] bbov→bv
 13.	[部] bbu→bu
-14.	[傍] bbuo→bo
+14.	[傍] bbuo→buo/bo
 
 ####	dd→d
 1.	[談] dda→da
