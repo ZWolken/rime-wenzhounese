@@ -797,6 +797,7 @@ version: "1.0.0"
 駘	ddai
 勿	fai
 弗	fai
+𠀾	fai	#added
 怫	fai
 拂	fai
 沸	fai
@@ -1173,6 +1174,7 @@ version: "1.0.0"
 段	ddang
 逿	ddang
 疼	ddang
+遁	ddang	#added
 滕	ddang
 藤	ddang
 誊	ddang
@@ -2041,6 +2043,7 @@ version: "1.0.0"
 蓋	gee
 溉	gee
 概	gee
+嘅	gee
 隑	ggee
 亍	ggee
 徛	ggee
@@ -5840,6 +5843,7 @@ version: "1.0.0"
 從	qong
 充	qong
 冲	qong
+敒	qong	#added
 衝	qong
 忡	qong
 芎	qong
@@ -6967,6 +6971,7 @@ version: "1.0.0"
 灌	gv
 鸛	gv
 罐	gv
+䀫	gv
 郁	iv
 鬱	iv
 安	iv
