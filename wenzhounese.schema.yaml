@@ -14,7 +14,7 @@ schema:
     - Wolken
     - Email <zwolken@foxmail.com | zharry@web.de>
   description:
-    基於Rime的采用沈克成先生-沈迦先生之拼音方案的溫州話輸入方案規則
+    基於Rime的溫州話輸入方案規則（采用沈克成先生-沈迦先生的拼音方案）
   dependencies:
     - luna_pinyin
     - pinyin_simp
