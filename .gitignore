@@ -1,7 +1,5 @@
-
-.vscode/c_cpp_properties.json
-.vscode/launch.json
-.vscode/settings.json
 *.lnk
 *.zip
 *.7z
+pinyin_simp.*
+*.pptm
