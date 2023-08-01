@@ -4,7 +4,7 @@ title: 吴语-温州话输入方案
 nav_order: 2
 ---
 
-<h1 align="center">吴语·温州话<br><a rel="繁体中文" href="/index.md"><font size="4">繁体中文</font></a>　<a rel="网页" href="https://zwolken.github.io/wenzhounese/index.html"><font size="4">网页</font></a><br>
+<h1 align="center">吴语·温州话<br><a rel="繁体中文" href="/index.md"><font size="4">繁体中文</font></a>　<a rel="网页端" href="https://zwolken.github.io/rime-wenzhounese/"><font size="4">网页端</font></a><br>
 
 [![LICENSE](https://img.shields.io/badge/license-AGPL3.0-blue?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/blob/main/LICENSE)<br>
 [![GitHub Repo stars](https://img.shields.io/github/stars/ZWolken/rime-wenzhounese?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese)
