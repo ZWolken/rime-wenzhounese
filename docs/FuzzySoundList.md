@@ -1,3 +1,9 @@
+---
+layout: default
+title: 溫州話發音模糊音方案
+nav_order: 3
+---
+
 # 溫州話發音模糊音方案
 **僅適配2004.11寧波出版社出版的《溫州話》内的沈氏溫州話拼寫方案**
 >本作品採用許可證[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html)進行許可。<br>

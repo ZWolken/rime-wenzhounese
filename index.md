@@ -1,4 +1,10 @@
-<h1 align="center">吳語·溫州話<br><a rel="简体中文" href="/docs/README_simp.md"><font size="4">简体中文</font></a><br>
+---
+layout: default
+title: 吳語-溫州話輸入方案
+nav_order: 1
+---
+
+<h1 align="center">吳語·溫州話<br><a rel="简体中文" href="https://zwolken.github.io/rime-wenzhounese/docs/README_simp.html"><font size="4">简体中文</font></a><br>
 
 [![LICENSE](https://img.shields.io/badge/license-AGPL3.0-blue?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/blob/main/LICENSE)<br>
 [![GitHub Repo stars](https://img.shields.io/github/stars/ZWolken/rime-wenzhounese?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese)
@@ -10,7 +16,7 @@
 
 **具體實現功能：**
 -	**根據沈式拼音方案進行文字輸入**
--	**根據[模糊音方案規則](/docs/FuzzySoundList.md)按照普通話拼音邏輯進行文字輸入**
+-	**根據[模糊音方案規則](https://zwolken.github.io/rime-wenzhounese/docs/FuzzySoundList.html)按照普通話拼音邏輯進行文字輸入**
 -	**可切換輸出為簡體字形或繁體字形（默認繁體字形）**
 -	**根據拼音進行溫州話發音反查**
 
@@ -65,7 +71,7 @@
 5.	將以`*.yaml`结尾的文件均複製至`用戶資料夾`内
 
 	-	`wenzhounese.custom.yaml`文件是針對原拼寫方案的模糊音定制方案文件，使用後一定程度上可根據普通話拼音的邏輯進行輸入
-	-	對於模糊音定制方案文件可見[模糊音方案説明](/docs/FuzzySoundList.md)
+	-	對於模糊音定制方案文件可見[模糊音方案説明](https://zwolken.github.io/rime-wenzhounese/docs/FuzzySoundList.html)
 	-	注意：模糊音定制方案文件導入使用后將升高重碼率，如果要只使用原拼寫方案進行輸入的話不導入此文件即可。若已經導入且部署，刪除`wenzhounese.custom.yaml`文件後重新部署即可。
 
 6.	在狀態欄上右鍵Rime圖標，點擊`輸入法設定`以打開啓設定界面，勾選中`溫州話`以開啓

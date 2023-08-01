@@ -1,0 +1,21 @@
+remote_theme: just-the-docs/just-the-docs
+
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: false
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/icon/wen.png"
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub存檔地址":
+    - "//github.com/ZWolken/rime-wenzhounese"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+color_scheme: nopurple
+
+footer_content: "Copyright &copy; 2023 Wolken. Distributed by an <a href=\"https://github.com/ZWolken/rime-wenzhounese/blob/main/LICENSE\">AGPL-3.0 license.</a>
