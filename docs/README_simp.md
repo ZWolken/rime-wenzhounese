@@ -53,24 +53,16 @@ nav_order: 2
 -	压缩包文件选`rime-wenzhounese`开头的其一下载即可。
 -	`trime-wenzhounese`开头的压缩包为Android系统安装使用，也是选择一个下载即可。
 -	压缩包下载完成后请解压到可自行可操作的文件夹备用，其中的包含的全部yaml文件以及icon文件夹及文件夹内文件为需要使用的。
--	<details>
-	<summary>不会解压缩文件？</summary>
-	<p>
+-	不会解压缩文件？<br>
 	请查阅<a href="https://blog.csdn.net/weixin_44168217/article/details/96311980">压缩包解压教程</a>。
-	</p>
-	</details>
 
 3.	将系统输入切换至Rime输入法
 
-4.	在状态栏上右键Rime图标，点击`用戶文件夾`以开启
--	<details>
-	<summary>亦可手动打开Rime用户文件夹，路径如下：</summary>
-	<p>
+4.	在状态栏上右键Rime图标点击`用戶文件夾`以开启
+-	亦可手动打开Rime用户文件夹，路径如下：<br>
 	【中州韻】<code>~/.config/ibus/rime/</code><br>
 	【小狼毫】<code>%APPDATA%\Rime</code><br>
 	【鼠鬚管】<code>~/Library/Rime/</code>
-	</p>
-	</details>
 
 5.	将以`*.yaml`结尾的文件均复制至`用戶資料夾`内
 
@@ -122,23 +114,19 @@ Rime输入法引擎自带繁简转换功能，具体步骤如下：
 ### 如何将简体字形输出设置为默认
 
 1.	在状态栏上右键Rime图标点击`用戶文件夾`以开启
--	<details>
-	<summary>亦可手动打开Rime用户文件夹，路径如下：</summary>
-	<p>
+-	亦可手动打开Rime用户文件夹，路径如下：<br>
 	【中州韻】<code>~/.config/ibus/rime/</code><br>
 	【小狼毫】<code>%APPDATA%\Rime</code><br>
 	【鼠鬚管】<code>~/Library/Rime/</code>
-	</p>
-	</details>
 
 2.	使用`记事本`或`Visual Studio Code`等软件打开`wenzhounese.schema.yaml`文件
 
 3.	跳转到第23行，具体代码应如下：
 ```yaml
-26	  - name: simplification
-27		reset: 0
-28			# 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
-29		states: [ 漢字, 汉字 ]
+  - name: simplification
+    reset: 0
+	# 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
+    states: [ 漢字, 汉字 ]
 ```
 
 4.	删除第27行行首的`#`符号，修改成如下所示：
@@ -170,18 +158,18 @@ Rime输入法引擎自带繁简转换功能，具体步骤如下：
 
 3.	跳转到第69行，具体代码应如下：
 ```yaml
-68	reverse_lookup:
-69	  dictionary: luna_pinyin
-70		#dictionary: pinyin_simp
-71		#若需要繁體字形拼音反查：刪除上方luna_pinyin行前#字符，並用#字符注釋pinyin_simp行
-72		#若需要簡體字形拼音反查：刪除上方pinyin_simp行前#字符，並用#字符注釋luna_pinyin行
-73	  prefix: "`"
+reverse_lookup:
+  dictionary: luna_pinyin
+	#dictionary: pinyin_simp
+	#若需要繁體字形拼音反查：刪除上方luna_pinyin行前#字符，並用#字符注釋pinyin_simp行
+	#若需要簡體字形拼音反查：刪除上方pinyin_simp行前#字符，並用#字符注釋luna_pinyin行
+  prefix: "`"
 ```
 
 4.	在69行行首添加`#`符号，并删除第70行行首的`#`符号，修改成如下所示：
 ```yaml
-69		#dictionary: luna_pinyin
-70	  dictionary: pinyin_simp
+	#dictionary: luna_pinyin
+  dictionary: pinyin_simp
 ```
 
 5.	保存文件更改

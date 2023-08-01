@@ -4,7 +4,7 @@ title: 吳語-溫州話輸入方案
 nav_order: 1
 ---
 
-<h1 align="center">吳語·溫州話<br><a rel="简体中文" href="https://zwolken.github.io/rime-wenzhounese/docs/README_simp.html"><font size="4">简体中文</font></a><br>
+<h1 align="center">吳語·溫州話<br><a rel="简体中文" href="https://zwolken.github.io/rime-wenzhounese/docs/README_simp.html"><font size="4">简体中文</font></a><br></h1>
 
 # [Rime](https://rime.im) 吳語-溫州話輸入方案
 
@@ -31,7 +31,7 @@ nav_order: 1
 
 參考資料：
 1.	[漢典](https://www.zdic.net/)
-2.	[小學堂|漢字古今字資料庫](https://xiaoxue.iis.sinica.edu.tw/ccdb)
+2.	[小學堂\|漢字古今字資料庫](https://xiaoxue.iis.sinica.edu.tw/ccdb)
 3.	[拼字输入法](https://hanzi.unihan.com.cn/PinZi)
 4.	[两分查字](http://zisea.com/zslf.htm)
 5.	[中文简繁体转换](https://tool.lu/zhconvert/)
@@ -53,23 +53,16 @@ nav_order: 1
 -	壓縮包文件選`rime-wenzhounese`開頭的其一下載即可。
 -	`trime-wenzhounese`開頭的壓縮包為Android系統安裝使用，也是選擇一個下載即可。
 -	壓縮包下載完成後請解壓到可自行可操作的文件夾備用，其中的包含的全部yaml文件以及icon文件夾及文件夾內文件爲需要使用的。
--	<details>
-	<summary>不會解壓縮文件？</summary>
-	<p>
+-	不會解壓縮文件？<br>
 	請查閱<a href="https://blog.csdn.net/weixin_44168217/article/details/96311980">壓縮包解壓教程</a>。
-	</details>
 
 3.	將系統輸入切換至Rime輸入法
 
 4.	在狀態欄上右鍵Rime圖標，點擊`用戶文件夾`以開啓
--	<details>
-	<summary>亦可手動打開Rime用戶文件夾，路徑如下：</summary>
-	<p>
+-	亦可手動打開Rime用戶文件夾，路徑如下：<br>
 	【中州韻】<code>~/.config/ibus/rime/</code><br>
 	【小狼毫】<code>%APPDATA%\Rime</code><br>
 	【鼠鬚管】<code>~/Library/Rime/</code>
-	</p>
-	</details>
 
 5.	將以`*.yaml`结尾的文件均複製至`用戶資料夾`内
 
@@ -121,23 +114,19 @@ Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
 ### 如何將簡體字形輸出設置爲默認
 
 1.	在狀態欄上右鍵Rime圖標點擊`用戶文件夾`以開啓
--	<details>
-	<summary>亦可手動打開Rime用戶文件夾，路徑如下：</summary>
-	<p>
+-	亦可手動打開Rime用戶文件夾，路徑如下：<br>
 	【中州韻】<code>~/.config/ibus/rime/</code><br>
 	【小狼毫】<code>%APPDATA%\Rime</code><br>
 	【鼠鬚管】<code>~/Library/Rime/</code>
-	</p>
-	</details>
 
 2.	使用`記事本`或`Visual Studio Code`等軟體打開`wenzhounese.schema.yaml`文件以備用編輯
 
 3.	跳轉到第23行，具體代碼應如下：
 ```yaml
-26	  - name: simplification
-27		reset: 0
-28			# 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
-29		states: [ 漢字, 汉字 ]
+  - name: simplification
+    reset: 0
+	# 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
+    states: [ 漢字, 汉字 ]
 ```
 
 4.	刪除第27行行首的`#`符號，修改成如下所示：
@@ -169,18 +158,18 @@ Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
 
 3.	跳轉到第69行，具體代碼應如下：
 ```yaml
-68	reverse_lookup:
-69	  dictionary: luna_pinyin
-70		#dictionary: pinyin_simp
-71		#若需要繁體字形拼音反查：刪除上方luna_pinyin行前#字符，並用#字符注釋pinyin_simp行
-72		#若需要簡體字形拼音反查：刪除上方pinyin_simp行前#字符，並用#字符注釋luna_pinyin行
-73	  prefix: "`"
+reverse_lookup:
+  dictionary: luna_pinyin
+	#dictionary: pinyin_simp
+	#若需要繁體字形拼音反查：刪除上方luna_pinyin行前#字符，並用#字符注釋pinyin_simp行
+	#若需要簡體字形拼音反查：刪除上方pinyin_simp行前#字符，並用#字符注釋luna_pinyin行
+  prefix: "`"
 ```
 
 4.	在69行行首添加`#`符號，並刪除第70行行首的`#`符號，修改成如下所示：
 ```yaml
-69		#dictionary: luna_pinyin
-70	  dictionary: pinyin_simp
+	#dictionary: luna_pinyin
+  dictionary: pinyin_simp
 ```
 
 5.	保存文件更改
