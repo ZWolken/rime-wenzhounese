@@ -43,9 +43,10 @@
 -	iOS系统安装使用可参阅[Hamster](https://github.com/imfuxiao/Hamster)
 
 2.	从[Release（发行版发布页）](https://github.com/ZWolken/rime-wenzhounese/releases/latest)下载最新版本的数据文件。
--	未曾使用过小狼毫輸入法的Windows用户可直接下载`*.exe`格式结尾的安装包进行安装使用。
--	压缩包文件选一者全部下载即可。
--	压缩包下载完成后请解压到可自行可操作的文件夹备用，其中的包含的11个yaml文件以及icon文件夹及文件夹内文件为需要使用的。
+-	未曾使用过小狼毫输入法的Windows用户可直接下载`*.exe`格式结尾的安装包进行安装使用。
+-	压缩包文件选`rime-wenzhounese`开头的其一下载即可。
+-	`trime-wenzhounese`开头的压缩包为Android系统安装使用。
+-	压缩包下载完成后请解压到可自行可操作的文件夹备用，其中的包含的全部yaml文件以及icon文件夹及文件夹内文件为需要使用的。
 -	<details>
 	<summary>不会解压缩文件？</summary>
 	请查阅<a href="https://[www.runoob.com/](https://blog.csdn.net/weixin_44168217/article/details/96311980)">压缩包解压教程</a>。
