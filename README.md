@@ -1,11 +1,10 @@
-<h1 align="center">吳語·溫州話<br><a rel="简体中文" href="/docs/README_simp.md"><font size="4">简体中文</font></a>　<a rel="網頁端" href="https://zwolken.github.io/rime-wenzhounese/"><font size="4">網頁端</font></a><br>
-
-[![LICENSE](https://img.shields.io/badge/license-AGPL3.0-blue?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/blob/main/LICENSE)<br>
-[![GitHub Repo stars](https://img.shields.io/github/stars/ZWolken/rime-wenzhounese?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese)
-[![GitHub all releases](https://img.shields.io/github/downloads/ZWolken/rime-wenzhounese/total?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/releases)
-</h1>
+<h1 align="center">吳語·溫州話<br><a rel="简体中文" href="/docs/README_simp.md"><font size="4">简体中文</font></a>　<a rel="網頁端" href="https://zwolken.github.io/rime-wenzhounese/"><font size="4">網頁端</font></a><br></h1>
 
 # [Rime](https://rime.im) 吳語-溫州話輸入方案
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/ZWolken/rime-wenzhounese?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese)
+[![GitHub all releases](https://img.shields.io/github/downloads/ZWolken/rime-wenzhounese/total?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/releases)<br>
+[![LICENSE](https://img.shields.io/badge/license-AGPL3.0-blue?style=for-the-badge)](https://github.com/ZWolken/rime-wenzhounese/blob/main/LICENSE)
 
 字典根據沈克成-沈迦的拼音方案進行錄入。
 
@@ -50,7 +49,9 @@
 -	壓縮包下載完成後請解壓到可自行可操作的文件夾備用，其中的包含的全部yaml文件以及icon文件夾及文件夾內文件爲需要使用的。
 -	<details>
 	<summary>不會解壓縮文件？</summary>
-	請查閱<a href="https://[www.runoob.com/](https://blog.csdn.net/weixin_44168217/article/details/96311980)">壓縮包解壓教程</a>。
+	<p>
+	請查閱<a href="https://blog.csdn.net/weixin_44168217/article/details/96311980">壓縮包解壓教程</a>。
+	</p>
 	</details>
 
 3.	將系統輸入切換至Rime輸入法
@@ -58,9 +59,11 @@
 4.	在狀態欄上右鍵Rime圖標，點擊`用戶文件夾`以開啓
 -	<details>
 	<summary>亦可手動打開Rime用戶文件夾，路徑如下：</summary>
+	<p>
 	【中州韻】<code>~/.config/ibus/rime/</code><br>
 	【小狼毫】<code>%APPDATA%\Rime</code><br>
 	【鼠鬚管】<code>~/Library/Rime/</code>
+	</p>
 	</details>
 
 5.	將以`*.yaml`结尾的文件均複製至`用戶資料夾`内
@@ -115,9 +118,11 @@ Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
 1.	在狀態欄上右鍵Rime圖標點擊`用戶文件夾`以開啓
 -	<details>
 	<summary>亦可手動打開Rime用戶文件夾，路徑如下：</summary>
+	<p>
 	【中州韻】<code>~/.config/ibus/rime/</code><br>
 	【小狼毫】<code>%APPDATA%\Rime</code><br>
 	【鼠鬚管】<code>~/Library/Rime/</code>
+	</p>
 	</details>
 
 2.	使用`記事本`或`Visual Studio Code`等軟體打開`wenzhounese.schema.yaml`文件以備用編輯
@@ -125,9 +130,9 @@ Rime輸入法引擎自帶繁簡轉換功能，具體步驟如下：
 3.	跳轉到第23行，具體代碼應如下：
 ```yaml
 26	  - name: simplification
-27	    reset: 0
-28	      # 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
-29	    states: [ 漢字, 汉字 ]
+27		reset: 0
+28			# 0[默認缺省值]：輸出原字形（繁體）；1：啓用「繁→簡」轉換，輸出簡體字
+29		states: [ 漢字, 汉字 ]
 ```
 
 4.	刪除第27行行首的`#`符號，修改成如下所示：
