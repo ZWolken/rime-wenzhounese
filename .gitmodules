@@ -1,11 +1,9 @@
-[submodule "Reference/現代漢語方言大詞典"]
-	path = Reference/現代漢語方言大詞典
-	url = https://github.com/ZWolken/Great-Dictionary-of-Modern-Chinese-Dialects.git
-
 [submodule "Reference/沈氏溫州話拼音文檔（他人製作）"]
 	path = Reference/沈氏溫州話拼音文檔（他人製作）
 	url = https://github.com/michgz/wenzhou-chinese-lang.git
-
 [submodule "Reference/rime-pinyin-simp"]
 	path = Reference/rime-pinyin-simp
 	url = https://github.com/rime/rime-pinyin-simp.git
+[submodule "Reference/現代漢語方言大詞典"]
+	path = Reference/現代漢語方言大詞典
+	url = https://github.com/ZWolken/Great-Dictionary-of-Modern-Chinese-Dialects.git
