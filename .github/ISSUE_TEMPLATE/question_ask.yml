@@ -1,0 +1,23 @@
+name: 存在疑問 / 提出問題
+description: 創建一個issue來對使用過程中的情況提出疑問。
+title: "请在此处简略地说明您的疑問/問題"
+body:
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 疑問/問題描述
+      placeholder: |
+        請在此處盡量詳細説明您的疑問/問題，該處可上傳截圖圖片或者附件，支持Markdown語言。
+        有涉及軟件的請盡量説明您使用的版本、設備類型、設備系統版本、Rime輸入法框架版本等。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: 注意事项
+      description: 请注意以下事项。
+      options:
+        - label: 我已知晓该仓库所有者僅會在能力範圍内進行問題進行解答，能力範圍以外的將無法解答。
+          required: true

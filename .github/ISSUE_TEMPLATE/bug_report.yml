@@ -1,0 +1,31 @@
+name: 報告Bug / 錯誤
+description: 創建一個issue來報告使用的過程中發現的錯誤等。
+title: "請在此處簡要概括要報告的Bug/錯誤"
+body:
+
+  - type: textarea
+    id: bug-environment
+    attributes:
+      label: 使用者系統環境
+      placeholder: |
+        請盡量説明您使用的版本、設備類型、設備系統版本、Rime輸入法框架版本等。
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-report
+    attributes:
+      label: Bug / 錯誤情況
+      placeholder: |
+        請對您Bug/錯誤的現象進行描述，該處可上傳截圖圖片或者附件，支持Markdown語言。
+    validations:
+      required: true
+        
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: 注意事项
+      description: 请注意以下事项。
+      options:
+        - label: 我已知晓该仓库所有者僅會在能力範圍内進行Bug/錯誤解答修復，能力範圍以外的可能不會修復。
+          required: true

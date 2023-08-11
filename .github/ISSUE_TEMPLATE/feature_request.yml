@@ -1,0 +1,22 @@
+name: 功能提議
+description: 創建一個issue來説明您想要本項目加入的功能。
+title: "请在此处简略地说明您想要的功能"
+body:
+
+  - type: textarea
+    id: feature-request
+    attributes:
+      label: 功能描述
+      placeholder: |
+        請在此處盡量詳細説明您想要加入的功能，該處可上傳截圖圖片或者附件，支持Markdown語言。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: 注意事项
+      description: 请注意以下事项。
+      options:
+        - label: 我已知晓该仓库所有者僅會在能力範圍内對本項目加入新的功能，能力範圍以外的忽略。
+          required: true
